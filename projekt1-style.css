@@ -6,7 +6,7 @@
     font-family: 'Spicy Rice';
     src: url('fonts/SpicyRice-Regular.ttf') format('truetype');
     font-weight: normal;
-    font font-style: normal;
+   font-style: normal;
 }
 body {
     background-color:pink;
@@ -25,10 +25,10 @@ body {
 
       }
 
-      ul li, ol, li (
+      ul li, ol, li {
         margin-bottom: 10px;
 
-      )
+      }
 
 
       
