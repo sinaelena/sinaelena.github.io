@@ -1,0 +1,180 @@
+@font-face{
+
+
+    font-family: 'Spicy Rice';
+    src: url('fonts/SpicyRice-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font font-style: normal;
+}
+
+body {
+    font-family: 'Spicy Rice'; sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/win.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+
+
+ul {
+    margin-bottom: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 1.5eem;
+    margin-bottom: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: palevioletred;
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+
+}
+h1 {
+    font font-family: 'Spicy Rice'; sans-serif;
+    font weight: 700;
+    font-size: 7em;
+    margin-top: -30px;
+    color: pink;
+    padding: 70px;   
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.gif {
+   margin-left: 20px;
+   position: relative;
+   top: -10px;
+}
+
+
+
+p {
+   font-family: 'Spicy Rice'; sans-serif; 
+    font-size: 2em;
+    background-color: palevioletred;
+     margin-left: 70px;
+     margin-top: -2px;
+     margin bottom: 2px;
+      padding: 50px; 
+      max-width: 1000px;
+      color: white;
+           
+   }
+
+   .smaller-text {
+    font-family: 'Spicy Rice'; sans-serif; 
+    font-size: 10px;
+    padding:10px;
+    margin-top: 20px;
+}
+
+
+
+   h3 {
+    font-family: 'Spicy Rice'; sans-serif; 
+    font-size: 3em;
+    margin-top: -30px;
+    color: pink;
+    padding: 70px    
+}
+   p2{
+    font-family: 'Spicy Rice'; sans-serif; 
+    font-size: 2em;
+    margin-top: -6px;
+    color: white;
+    padding: 90px    
+}
+  
+h3 {
+    line-height: 1.2;
+    
+}
+
+h4 {
+    font-family: 'Spicy Rice'; sans-serif; 
+    font-size: 2em;
+    margin-top: -90px;
+    color: silver;
+    padding: 70px  
+}
+img {
+    padding: 0;
+    margin-top: -100px;
+    padding: 70px  
+}
+
+.link-container{
+    display: flex;
+    justify-content: ;
+}
+    .move-right{
+        margin-left: 70px;
+    }
+
+    .smaller-text {
+        font-family: 'Spicy Rice'; sans-serif; 
+        font-size: 10px;
+        background-color:brown;
+        padding:10px;
+        margin-top: 20px;
+    }
+   
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.skills-list li {
+    font-size: 6em;
+    margin-right: 20px;
+    color: rgb(148, 52, 52);
+ font-weight: bold;
+
+}
+   
+.project-link {
+    font-family: 'Spicy Rice'; sans-serif; 
+    display: block;
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: palevioletred;
+    text-decoration: none;
+}
+  
+.project-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+  /* Stile für Projekt h1 in Projekt 1*/
+ body.projekt1 h1{
+
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+}
+
+    
+
+  
