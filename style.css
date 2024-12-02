@@ -1,0 +1,140 @@
+/*style.css*/
+/*Setzt den Hintergrund der Seite */
+body{
+    background-color: black; /* Hintergrundfarbe auf schwarz gesetzt */
+    font-family: 'Quicksand', sans-serif;
+    color: white; /* Schriftfarbe auf Weiß gesetzt */
+}
+
+h1{
+    text-align: center; /* Zentriert das Bild */
+}
+
+h2{
+    text-align: center; /* Zentriert das Bild */
+}
+
+img {
+    display: block; /* Blockt das bild */
+    margin: 0 auto; /* Zentriert Bild horizontal */
+    width: 50%;
+    max-width: 500px; /* Setzt Bild auf max 80 der Breite von Container */
+    height: auto;  /* Bewahrt das Seitenverhältnis */
+}
+
+img {
+    border: 2px solid white; /* Weißer Rahmen mit einer Dicke von 2px */
+    border-radius: 10px;      /* Optional: macht die Ecken des Rahmens abgerundet */
+    padding: 5px;             /* Optional: fügt etwas Abstand zwischen Bild und Rahmen hinzu */
+  }
+
+  .bildrahmen {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+/* Hamburger-Menü (drei Striche) */
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1000; /* Damit das Menü über anderen Elementen schwebt */
+  }
+  
+  .menu-icon .bar {
+    width: 100%;
+    height: 4px;
+    background-color: white; /* Setze hier die Farbe deiner Wahl */
+    transition: 0.3s;
+  }
+  
+  /* Menü (versteckt anfangs) */
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none; /* Menü ist anfangs versteckt */
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: #333;  /* Hintergrundfarbe des Menüs */
+    border-radius: 5px;
+  }
+  
+  .menu li {
+    padding: 10px;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Menü sichtbar machen, wenn auf das Hamburger-Symbol geklickt wird */
+  .menu.active {
+    display: block;
+  }
+  
+  /* Menü-Icon bei Klick animieren */
+  .menu-icon.active .bar:nth-child(1) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 8px;
+  }
+  
+  .menu-icon.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.active .bar:nth-child(3) {
+    transform: rotate(45deg);
+    position: relative;
+    top: -8px;
+  }
+
+  .menu-icon {
+    position: fixed;  /* Fixiert das Symbol oben links */
+    top: 20px;        /* Abstand von oben */
+    left: 20px;       /* Abstand von links */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1000;    /* Damit das Symbol immer über anderen Inhalten liegt */
+  }
+
+  /* Standard Schriftfarbe für Links */
+.menu li a {
+    color: white; /* Weiß */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    display: block; /* Damit der Link den gesamten Listeneintrag ausfüllt */
+    padding: 10px; /* Etwas Abstand um den Text */
+}
+
+/* Standard Schriftfarbe für Links */
+.menu li a {
+    color: white; /* Weiße Schriftfarbe */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    display: block; /* Damit der Link den gesamten Listeneintrag ausfüllt */
+    padding: 10px; /* Etwas Abstand um den Text */
+}
+
+/* Standard Schriftfarbe für Links */
+.menu li a {
+    color: white; /* Weiße Schriftfarbe */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    display: block; /* Damit der Link den gesamten Listeneintrag ausfüllt */
+    padding: 10px; /* Etwas Abstand um den Text */
+}
+
+/* Hover-Effekt: Schriftfarbe wird dunkel-pink, ohne Hintergrund */
+.menu li a:hover {
+    color: #d5006e; /* Dunkel-pink beim Hover */
+}
