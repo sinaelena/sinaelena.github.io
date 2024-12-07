@@ -1,9 +1,12 @@
-// Funktion zum Umschalten der "active"-Klasse
+
+  // Funktion, um das Menü anzuzeigen/zu verbergen
 function toggleMenu() {
-  const menu = document.querySelector(".menu");  // Menü-Container
-  const menuIcon = document.querySelector(".menu-icon");  // Hamburger-Menü-Icon
-  
-  // Umschalten der "active"-Klasse
-  menu.classList.toggle("active");
-  menuIcon.classList.toggle("active");
+  const menu = document.querySelector('.menu');  // Menü
+  menu.classList.toggle('open');  // Menü anzeigen oder ausblenden
 }
+
+// Event Listener für das Hamburger-Icon hinzufügen
+const hamburger = document.querySelector('.hamburger');
+hamburger.addEventListener('click', toggleMenu);
+  
+

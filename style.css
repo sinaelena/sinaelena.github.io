@@ -8,7 +8,10 @@ body{
 
 h1{
     text-align: center; /* Zentriert das Bild */
+    margin-top: 50px;
+    font-size: 3em;
 }
+
 
 h2{
     text-align: center; /* Zentriert das Bild */
@@ -61,7 +64,9 @@ img {
     position: absolute;
     top: 50px;
     left: 10px;
-    background-color: #333;  /* Hintergrundfarbe des Menüs */
+    background-color: #bbb8b8;  /* Hintergrundfarbe des Menüs */
+    background-position-x: center;
+    transition: background-color 0.3s ease; /* Sanfte Übergangseffekte */
     border-radius: 5px;
   }
   
@@ -136,5 +141,79 @@ img {
 
 /* Hover-Effekt: Schriftfarbe wird dunkel-pink, ohne Hintergrund */
 .menu li a:hover {
-    color: #d5006e; /* Dunkel-pink beim Hover */
+    color: #ea8cbd; /* Dunkel-pink beim Hover */
+}
+
+/* Standard: Menü ist unsichtbar */
+.menu {
+  display: none;
+}
+
+/* Wenn das Menü die Klasse 'open' hat, wird es sichtbar */
+.menu.open {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+/* Hamburger-Icon und Bars */
+.hamburger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.hamburger .bar {
+  width: 30px;
+  height: 5px;
+  margin: 5px;
+  background-color: black;
+}
+
+
+/* Menü fixieren */
+.menu {
+  position: fixed; /* Fixiert das Menü */
+  top: 0; /* Menü bleibt oben */
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Sicherstellen, dass es oben bleibt */
+}
+
+/* Menü fixieren und Abstand vom oberen Rand hinzufügen */
+.menu {
+  position: fixed; /* Fixiert das Menü */
+  top: 50px; /* Abstand zum oberen Rand (anpassen je nach Bedarf) */
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Sicherstellen, dass es oben bleibt */
+}
+
+/* Menü nur so hoch wie der Inhalt */
+.menu {
+  height: auto; /* Höhe an den Inhalt anpassen */
+  max-height: none; /* Keine feste Höhe */
+}
+
+/* Hamburger-Icon, wenn das Menü geöffnet wird */
+.hamburger.open .bar {
+  background-color: transparent; /* Streifen unsichtbar machen */
+}
+
+.menu {
+  height: auto; /* Höhe des Menüs an den Inhalt anpassen */
+  max-height: none; /* Keine feste Höhe */
+}
+
+.menu {
+  background-color: transparent; /* Kein Hintergrund */
+}
+
+.about-text p {
+  font-size: 18px;
+  padding-bottom: 10px;
+  max-width: 600px; /* Maximale Breite für den Text */
+  margin: 0 auto; /* Zentriert den Text auf der Seite */
+  text-align: center; /* Zentriert den Text */
+  line-height: 1.6; /* Besserer Abstand zwischen den Zeilen */
+  padding: 20px; /* Etwas Abstand um den Text */
 }

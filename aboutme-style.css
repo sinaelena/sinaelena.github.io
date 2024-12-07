@@ -1,0 +1,24 @@
+/* Stil für die H1 */
+h1 {
+    font-size: 36px; /* Größere Schrift für H1 */
+    margin-bottom: 20px; /* Abstand nach unten */
+    text-align: center; /* Zentriert den Text */
+    line-height: 1.4; /* Zeilenhöhe für bessere Lesbarkeit */
+    max-width: 700px; /* Maximale Breite, um lange Zeilen zu verhindern */
+    margin: 0 auto; /* Zentriert den Text horizontal */
+  }
+  
+  /* Stil für den P-Text */
+  p {
+    font-size: 18px; /* Etwas größere Schrift für den Text */
+    line-height: 1.6; /* Besseren Abstand zwischen den Zeilen */
+    max-width: 700px; /* Maximale Breite für den Text */
+    margin: 0 auto; /* Zentriert den Text horizontal */
+    text-align: center; /* Zentriert den Text */
+    padding: 10px; /* Etwas Abstand rund um den Text */
+  }
+  
+  /* Optional: Hinzufügen eines schönen Übergangs für den Text */
+  h1, p {
+    transition: all 0.3s ease;
+  }
