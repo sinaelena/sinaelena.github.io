@@ -1,7 +1,8 @@
 /* Stil für die H1 */
 h1 {
+ 
     font-size: 36px; /* Größere Schrift für H1 */
-    margin-bottom: 20px; /* Abstand nach unten */
+    margin-bottom: 80px; /* Abstand nach unten */
     text-align: center; /* Zentriert den Text */
     line-height: 1.4; /* Zeilenhöhe für bessere Lesbarkeit */
     max-width: 700px; /* Maximale Breite, um lange Zeilen zu verhindern */
@@ -21,4 +22,8 @@ h1 {
   /* Optional: Hinzufügen eines schönen Übergangs für den Text */
   h1, p {
     transition: all 0.3s ease;
+  }
+
+  .about-me {
+    padding-top: 50px;
   }

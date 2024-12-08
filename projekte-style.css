@@ -1,0 +1,126 @@
+/* Bilder-Grid */
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Flexible Spaltenbreite */
+    gap: 16px; /* Abstand zwischen den Bildern */
+    padding: 20px;
+}
+
+.project-gallery a {
+    display: block;
+    overflow: hidden;
+    border-radius: 8px; /* Abgerundete Ecken */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-gallery a:hover {
+    transform: scale(1.05); /* Zoom-Effekt beim Hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Schattierung */
+}
+
+.project-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Gleiche Abrundung wie Link */
+}
+
+.project-gallery a img[src="ball.gif"] {
+    width: 100%; /* Passt die Breite des Bildes auf die Containerbreite an */
+    max-width: 300px; /* Setzt eine maximale Breite für das GIF */
+    height: auto; /* Bewahrt das Seitenverhältnis */
+}
+
+.project-gallery a img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Sorgt für einen sanften Übergang */
+}
+
+.project-gallery a:hover img {
+    transform: scale(1.1); /* Vergrößert das Bild um 10% */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Fügt einen Schatten hinzu */
+}
+
+.project-gallery a img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Sanfter Übergang */
+}
+
+.project-gallery a:hover img {
+    transform: scale(1.1) !important; /* Vergrößert das Bild beim Hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Schatten hinzufügen */
+}
+
+/* Container für die Projekte */
+.project-gallery {
+    display: block; /* Verhindert das nebeneinander Stehen */
+    text-align: center; /* Zentriert die Bilder horizontal */
+}
+
+/* Für das erste Projekt (GIF) */
+.project-gallery a:first-child {
+    display: block;
+    margin: 0 auto; /* Zentriert das Bild */
+    max-width: 100%; /* Macht das Bild responsive */
+    padding-bottom: 20px; /* Abstand zu den anderen Projekten */
+}
+
+/* Für alle anderen Projekte */
+.project-gallery a {
+    display: block; /* Jedes Projekt wird blockweise angezeigt */
+    margin: 20px auto; /* Zentriert alle Projekte und fügt Abstand hinzu */
+    max-width: 80%; /* Bestimmt die maximale Breite der Projekte */
+    box-sizing: border-box; /* Verhindert, dass Padding die Breite beeinflusst */
+}
+
+/* Hover-Effekt für die Bilder */
+.project-gallery a img {
+    width: 100%; /* Bild passt sich der Container-Breite an */
+    height: auto; /* Bewahrt das Seitenverhältnis */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-gallery a:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Container für die Projekte */
+.project-gallery {
+    display: block; /* Verhindert das nebeneinander Stehen */
+    text-align: center; /* Zentriert die Bilder horizontal */
+}
+
+/* Für das erste Projekt (GIF) */
+.project-gallery a:first-child {
+    display: block;
+    margin: 0 auto; /* Zentriert das Bild */
+    max-width: 100%; /* Macht das Bild responsive */
+    padding-bottom: 20px; /* Abstand zu den anderen Projekten */
+    box-sizing: border-box; /* Verhindert, dass Padding die Breite beeinflusst */
+}
+
+/* Für alle anderen Projekte */
+.project-gallery a {
+    display: block; /* Jedes Projekt wird blockweise angezeigt */
+    margin: 20px auto; /* Zentriert alle Projekte und fügt Abstand hinzu */
+    max-width: 90%; /* Bestimmt die maximale Breite der Projekte */
+    box-sizing: border-box; /* Verhindert, dass Padding die Breite beeinflusst */
+    padding: 20px; /* Abstand rund um das Bild */
+}
+
+/* Hover-Effekt für die Bilder */
+.project-gallery a img {
+    width: 100%; /* Bild passt sich der Container-Breite an */
+    height: auto; /* Bewahrt das Seitenverhältnis */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover-Effekt für das Vergrößern des Bildes */
+.project-gallery a:hover img {
+    transform: scale(1.1); /* Vergrößert das Bild beim Hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Fügt einen Schatten hinzu */
+}
+
+/* Optional: Füge eine Mindesthöhe für die Projekte hinzu, damit sie alle gleichmäßig sind */
+.project-gallery a {
+    min-height: 300px; /* Stellen Sie sicher, dass jedes Projekt genug Höhe hat */
+}
