@@ -6,11 +6,25 @@ body{
     color: white; /* Schriftfarbe auf Weiß gesetzt */
 }
 
+
 h1{
     text-align: center; /* Zentriert das Bild */
     margin-top: 50px;
     font-size: 3em;
-}
+    text-align: center; /* Zentriert den Text horizontal */
+    line-height: 1.2; /* Steuerung des Abstands zwischen den Zeilen */
+    font-weight: 300; /* Dünne Schrift (abhängig von der Schriftart) */
+    font-size: 1.5rem; /* Kleinere Schriftgröße */
+    line-height: 1.1; /* Engerer Abstand zwischen den Zeilen */
+  }
+  
+  
+  
+  h1 span {
+    display: block; /* Bricht "Sina" und "Lang" in separate Zeilen */
+  }
+
+
 
 
 h2{
@@ -295,3 +309,169 @@ p {
   border-radius: 10px; /* Kleine abgerundete Ecken */
 }
 
+
+
+/* Masonry Layout Container */
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Flexibles Grid */
+  grid-auto-rows: minmax(200px, auto); /* Höhe der Bilder ist variabel, zwischen 200px und auto */
+  gap: 25px; /* Abstand zwischen den Bildern */
+  padding: 20px; /* Abstand um den Grid-Container */
+  margin-top: 100px; /* Verschiebt das Layout nach unten */
+}
+
+/* Einzelne Items (Bilder) im Masonry Layout */
+.item {
+  position: relative;
+  height: auto; /* Die Höhe des Bildes soll sich nach dem Bildinhalt richten */
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+/* Einzelne Items (Bilder) im Masonry Layout */
+.item {
+  position: relative;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+
+/* Hover-Effekte für Bilder */
+.item:hover img {
+  transform: scale(1.03); /* Leichtes Vergrößern beim Hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Schatten beim Hover */
+}
+
+/* Entfernt den Rahmen von den Bildern */
+img {
+  border: none !important; /* Keine Rahmen */
+  box-shadow: none !important; /* Entfernt eventuell hinzugefügte Schatten */
+  display: block; /* Verhindert, dass Bilder als Inline-Elemente angezeigt werden */
+  max-width: 100%; /* Bildgrößen an den Container anpassen */
+  height: auto; /* Verhindert Verzerrungen */
+  margin: 0 auto; /* Zentriert das Bild innerhalb des Containers */
+}
+
+/* Container für die Portfolio-Bilder */
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 gleichmäßige Spalten für Bilder */
+  gap: 60px; /* Abstand zwischen den Bildern */
+  padding: 20px;
+}
+
+/* Stil für jedes Bild im Portfolio */
+.portfolio-item {
+  position: relative;
+  overflow: hidden; /* Verhindert das Überlaufen des Bildes */
+  border-radius: 10px; /* Abrundung der Ecken der Bilder */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+  transition: transform 0.3s ease; /* Sanfte Animation bei Hover */
+}
+
+/* Bilder innerhalb der Portfolio-Elemente */
+.portfolio-item img {
+  width: 100%; /* Bild breitet sich über die gesamte Breite des Containers aus */
+  height: auto; /* Verhindert Verzerrung */
+  object-fit: cover; /* Bild wird skaliert, um den Container zu füllen, ohne Verzerrung */
+  display: block;
+  border-radius: 10px; /* Abrundung der Bilder */
+}
+
+/* Hover-Effekt für die Portfolio-Elemente */
+.portfolio-item:hover {
+  transform: scale(1.05); /* Vergrößert das Bild bei Hover */
+}
+
+/* Medienabfragen für kleinere Bildschirme */
+
+
+/* Auf mobilen Geräten wird es nur 1 Spalte geben */
+@media (max-width: 768px) {
+  .portfolio-container {
+    grid-template-columns: 1fr; /* 1 Spalte auf sehr kleinen Geräten */
+  }
+}
+
+.portfolio-item img {
+  max-width: 300px; /* Maximalbreite der Bilder auf großen Bildschirmen */
+  width: 100%; /* Bild füllt immer den Container aus */
+  height: auto; /* Verhindert Verzerrung */
+}
+
+.portfolio-container {
+  max-width: 1200px; /* Maximalbreite des Containers */
+  margin: 0 auto; /* Zentriert den Container auf der Seite */
+}
+
+/* Entferne abgerundete Ecken für alle Bilder */
+img {
+  border-radius: 0;
+}
+
+/* Entferne abgerundete Ecken für Bilder in der Portfolio-Section */
+.portfolio-item img {
+  border-radius: 0; /* Keine abgerundeten Ecken mehr */
+}
+
+
+/* Verschiebt die Bilderreihe nach unten */
+.masonry {
+  margin-top: 100px;  /* Passe den Wert an, um den Abstand zu steuern */
+}
+
+/* Zickzack-Layout für die Bilderreihe (5 Bilder pro Reihe) */
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 gleichmäßige Spalten für Bilder */
+  gap: 20px; /* Abstand zwischen den Bildern */
+  margin-top: 50px; /* Abstand nach oben */
+  grid-auto-rows: minmax(200px, auto); /* Flexibles Layout für unterschiedlich hohe Bilder */
+  max-width: 1200px; /* Maximale Breite des Containers */
+  margin-left: auto; /* Zentriert den Container horizontal */
+  margin-right: auto; /* Zentriert den Container horizontal */
+}
+
+/* Zickzack-Verschiebung für die Bilder in der ersten Reihe */
+.masonry .item:nth-child(5n+1) {
+  transform: translateY(-20px); /* Das erste Bild wird nach oben verschoben */
+}
+
+.masonry .item:nth-child(5n+2) {
+  transform: translateY(20px); /* Das zweite Bild wird nach unten verschoben */
+}
+
+.masonry .item:nth-child(5n+3) {
+  transform: translateY(-20px); /* Das dritte Bild wird nach oben verschoben */
+}
+
+.masonry .item:nth-child(5n+4) {
+  transform: translateY(20px); /* Das vierte Bild wird nach unten verschoben */
+}
+
+.masonry .item:nth-child(5n+5) {
+  transform: translateY(-20px); /* Das fünfte Bild wird nach oben verschoben */
+}
+
+/* Für Bilder innerhalb der Zickzack-Form */
+.masonry .item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Verhindert Verzerrungen */
+  display: block;
+  border-radius: 10px; /* Optional: abgerundete Ecken für das Bild */
+}
+
+/* Auf kleineren Bildschirmen wird das Layout angepasst */
+@media (max-width: 1024px) {
+  .masonry {
+      grid-template-columns: repeat(4, 1fr); /* Auf Tablets: 4 Spalten */
+  }
+}
+
+@media (max-width: 768px) {
+  .masonry {
+      grid-template-columns: repeat(2, 1fr); /* Auf Smartphones: 2 Spalten */
+  }
+}
