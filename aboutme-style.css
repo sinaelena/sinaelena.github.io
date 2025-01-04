@@ -27,3 +27,11 @@ h1 {
   .about-me {
     padding-top: 50px;
   }
+
+  .about-me-image {
+    display: block; /* Damit das Bild als Blockelement behandelt wird */
+    margin-left: 0; /* Kein Abstand links */
+    margin-right: auto; /* Zentriert den Text rechts daneben */
+    width: 200px; /* Passe die Größe nach Bedarf an */
+    height: auto; /* Proportionen beibehalten */
+}
