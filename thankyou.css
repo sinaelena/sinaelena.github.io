@@ -1,0 +1,78 @@
+/* Grundlegendes Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Gleiche Schriftart wie bei About Me */
+    background-color: #000000; /* Hintergrund bleibt Schwarz */
+    color: white; /* Weiß für den Text */
+    text-align: center; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Container für die Thank You Seite */
+.thankyou-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Überschrift */
+h1 {
+    font-size: 4rem; /* Große Schriftgröße für den Titel */
+    font-weight: 700; /* Dicke Schrift */
+    color: #FF69B4; /* Pinke Farbe für den Header */
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+/* Paragraph */
+
+p {
+    font-size: 1.5rem; /* Größere Schriftgröße für den Text */
+    margin-bottom: 40px;
+    line-height: 1.6;
+    font-weight: 200; /* Dünnerer Text */
+    color: #ffffff;
+    text-align: justify; /* Blocksatz */
+}
+
+
+/* Link zur Startseite */
+.home-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffffff; /* Pink für den Link */
+    font-weight: 500;
+    transition: transform 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+ 
+}
+
+.home-link:hover {
+    transform: scale(1.1);
+    color: #d85a9b; /* Helleres Pink beim Hover */
+}
+
+/* Responsivität für kleinere Bildschirme */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}

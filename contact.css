@@ -1,0 +1,106 @@
+/* Grundlegendes Layout */
+body {
+    font-family: 'Arial', sans-serif; /* Schriftart anpassen, falls du eine andere verwendest */
+    background-color: #000000; /* Hintergrundfarbe Schwarz */
+    color: #fff; /* Schriftfarbe Weiß */
+    margin: 0;
+    padding: 0;
+}
+
+/* Kontakt Sektion */
+#contact {
+    background-color: #000000; /* Hintergrund bleibt schwarz */
+    padding: 50px 0;
+}
+
+/* Container für Formular */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #fff; /* Schriftfarbe Weiß für den Titel */
+}
+
+/* Formular */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #fff; /* Schriftfarbe Weiß für Labels */
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #ddd; /* Leichter Rand für Felder */
+    border-radius: 5px;
+    background-color: #333; /* Dunkler Hintergrund für Eingabefelder */
+    color: #fff; /* Weißer Text für die Felder */
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #aaa; /* Hellerer Text für Placeholder */
+}
+
+/* Button Style für den "Senden"-Button */
+form button {
+    padding: 15px;
+    font-size: 1.1em;
+    background-color: #ffffff; /* Weiße Hintergrundfarbe für den Button */
+    color: #000; /* Schwarzer Text für den Button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #d85a9b; /* Dunklere pinke Farbe beim Hover */
+    color: #fff; /* Weißer Text, wenn man darüber hoveriert */
+}
+
+/* Social Media Links */
+.social-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-links p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #fff; /* Weißer Text für den Hinweis auf soziale Netzwerke */
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #ffffff; /* Weiße Farbe für Links */
+    margin: 0 10px;
+    font-size: 1.1em;
+    transition: all 0.3s ease; /* Sanfter Übergang für alle Veränderungen */
+}
+
+.social-links a:hover {
+    color: #FF69B4; /* Pinke Farbe für Links beim Hover */
+    transform: scale(1.2); /* Links werden beim Hover größer */
+    font-size: 1.3em; /* Schriftgröße wird beim Hover größer */
+}
+
+/* Responsivität */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
