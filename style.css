@@ -13,7 +13,7 @@ h1{
     font-size: 3em;
     text-align: center; /* Zentriert den Text horizontal */
     line-height: 1.2; /* Steuerung des Abstands zwischen den Zeilen */
-    font-weight: 300; /* Dünne Schrift (abhängig von der Schriftart) */
+    font-weight: 400; /* Dünne Schrift (abhängig von der Schriftart) */
     font-size: 1.5rem; /* Kleinere Schriftgröße */
     line-height: 1.1; /* Engerer Abstand zwischen den Zeilen */
   }
@@ -476,3 +476,5 @@ img {
       grid-template-columns: repeat(2, 1fr); /* Auf Smartphones: 2 Spalten */
   }
 }
+
+

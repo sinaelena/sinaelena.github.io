@@ -1,3 +1,10 @@
+
+
+/* Grundlegendes Layout */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 .about-me-container {
   display: block; /* Stellt sicher, dass Elemente untereinander stehen */
 }

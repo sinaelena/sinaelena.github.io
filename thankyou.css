@@ -1,3 +1,9 @@
+
+/* Grundlegendes Layout */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 /* Grundlegendes Layout */
 * {
     margin: 0;
@@ -6,7 +12,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif; /* Gleiche Schriftart wie bei About Me */
+    font-family: 'Quicksand', sans-serif; /* Gleiche Schriftart wie bei About Me */
     background-color: #000000; /* Hintergrund bleibt Schwarz */
     color: white; /* Weiß für den Text */
     text-align: center; 

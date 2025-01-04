@@ -1,6 +1,6 @@
 /* Grundlegendes Layout */
 body {
-    font-family: 'Arial', sans-serif; /* Schriftart anpassen, falls du eine andere verwendest */
+    font-family: 'Quicksand', sans-serif;/* Schriftart anpassen, falls du eine andere verwendest */
     background-color: #000000; /* Hintergrundfarbe Schwarz */
     color: #fff; /* Schriftfarbe Weiß */
     margin: 0;
@@ -24,7 +24,7 @@ h1 {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 30px;
-    color: #fff; /* Schriftfarbe Weiß für den Titel */
+    color:#d85a9b; /* Schriftfarbe Weiß für den Titel */
 }
 
 /* Formular */
