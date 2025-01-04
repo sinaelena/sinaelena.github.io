@@ -70,35 +70,26 @@ img {
   }
   
   /* Menü (versteckt anfangs) */
-  .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: none; /* Menü ist anfangs versteckt */
-    position: absolute;
-    top: 50px;
-    left: 10px;
-    background-color: #bbb8b8;  /* Hintergrundfarbe des Menüs */
-    background-position-x: center;
-    transition: background-color 0.3s ease; /* Sanfte Übergangseffekte */
-    border-radius: 5px;
-  }
-  
-  .menu li {
-    padding: 10px;
-  }
-  
-  .menu li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Menü sichtbar machen, wenn auf das Hamburger-Symbol geklickt wird */
-  .menu.active {
-    display: block;
-  }
-  
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none; /* Menü ist anfangs versteckt */
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background-color: #bbb8b8; /* Hintergrundfarbe des Menüs */
+  background-position-x: center;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+/* Menü sichtbar machen, wenn auf das Hamburger-Symbol geklickt wird */
+.menu.open {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8); /* Menü-Hintergrundfarbe */
+}
+
   /* Menü-Icon bei Klick animieren */
   .menu-icon.active .bar:nth-child(1) {
     transform: rotate(-45deg);

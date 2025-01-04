@@ -1,14 +1,22 @@
-/* Stil für die H1 */
-h1 {
- 
-    font-size: 36px; /* Größere Schrift für H1 */
-    margin-bottom: 80px; /* Abstand nach unten */
-    text-align: center; /* Zentriert den Text */
-    line-height: 1.4; /* Zeilenhöhe für bessere Lesbarkeit */
-    max-width: 700px; /* Maximale Breite, um lange Zeilen zu verhindern */
-    margin: 0 auto; /* Zentriert den Text horizontal */
-  }
-  
+.about-me-container {
+  display: block; /* Stellt sicher, dass Elemente untereinander stehen */
+}
+
+.about-me-image {
+  width: 250px; /* Bildgröße */
+  height: auto; /* Proportionen beibehalten */
+  display: block; /* Bild als Blockelement */
+  margin: 80px 0 20px 20px; 
+}
+
+
+.about-me-text h1 {
+  text-align: left; /* Links ausrichten */
+  margin: 0 0 10px 20px; /* Abstand: oben 0, unten 10px, links 20px */
+  padding: 0; /* Kein zusätzlicher Innenabstand */
+}
+
+
   /* Stil für den P-Text */
   p {
     font-size: 18px; /* Etwas größere Schrift für den Text */
@@ -19,19 +27,47 @@ h1 {
     padding: 10px; /* Etwas Abstand rund um den Text */
   }
   
-  /* Optional: Hinzufügen eines schönen Übergangs für den Text */
-  h1, p {
-    transition: all 0.3s ease;
-  }
+  .menu-icon {
+    position: fixed; /* Fixiert das Menü */
+    top: 10px; /* Abstand vom oberen Rand */
+    right: 10px; /* Abstand vom rechten Rand */
+    z-index: 1000; /* Stellt sicher, dass das Menü immer sichtbar ist */
+}
 
-  .about-me {
-    padding-top: 50px;
-  }
+/* Hamburger Menü */
+.menu-icon {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
 
-  .about-me-image {
-    display: block; /* Damit das Bild als Blockelement behandelt wird */
-    margin-left: 0; /* Kein Abstand links */
-    margin-right: auto; /* Zentriert den Text rechts daneben */
-    width: 200px; /* Passe die Größe nach Bedarf an */
-    height: auto; /* Proportionen beibehalten */
+.nav-menu {
+  display: none; /* Menü standardmäßig ausblenden */
+  position: absolute;
+  top: 50px; /* Menü direkt unter dem Hamburger-Icon */
+  right: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  padding: 10px;
+  width: 200px;
+}
+
+.nav-menu.open {
+  display: block; /* Menü anzeigen, wenn die Klasse 'open' hinzugefügt wird */
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-menu li {
+  padding: 10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: black;
 }

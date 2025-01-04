@@ -1,13 +1,13 @@
-
-  // Funktion, um das Menü anzuzeigen/zu verbergen
+// Funktion, um das Menü anzuzeigen oder zu verbergen
 function toggleMenu() {
-  const menu = document.querySelector('.menu');  // Menü
-  menu.classList.toggle('open');  // Menü anzeigen oder ausblenden
-}
-
-// Event Listener für das Hamburger-Icon hinzufügen
-const hamburger = document.querySelector('.hamburger');
-hamburger.addEventListener('click', toggleMenu);
+    const menu = document.querySelector('.menu'); // Menü-Element
+    console.log('Hamburger Menu clicked!'); // Debugging-Hilfe
+    menu.classList.toggle('open'); // Menü öffnen oder schließen
+  }
+  
+  // Event Listener für das Hamburger-Icon hinzufügen
+  const hamburger = document.querySelector('.menu-icon');
+  hamburger.addEventListener('click', toggleMenu);
   
 
 
