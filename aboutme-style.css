@@ -14,25 +14,58 @@
   text-align: left; /* Links ausrichten */
   margin: 0 0 10px 20px; /* Abstand: oben 0, unten 10px, links 20px */
   padding: 0; /* Kein zusätzlicher Innenabstand */
+  font-size: 3rem; /* Setzt die Größe der Schrift auf 3rem */
+  font-weight: 300; /* Macht die Schrift fett */
+  color: #fff; /* Weißer Text (optional, je nach Hintergrund) */
 }
 
 
   /* Stil für den P-Text */
   p {
-    font-size: 18px; /* Etwas größere Schrift für den Text */
+    font-size: 28px; /* Etwas größere Schrift für den Text */
+    font-weight: 70;
     line-height: 1.6; /* Besseren Abstand zwischen den Zeilen */
-    max-width: 700px; /* Maximale Breite für den Text */
-    margin: 0 auto; /* Zentriert den Text horizontal */
-    text-align: center; /* Zentriert den Text */
-    padding: 10px; /* Etwas Abstand rund um den Text */
+    text-align: justify; /* Text im Blocksatz */
+    margin-left: 450px;  /* Abstand von der rechten Seite */
+    max-width: 800px;    /* Maximale Breite für den Text (nach Bedarf anpassen) */
+    margin-top: -520px;   /* Verschiebung nach oben, falls gewünscht */
+  }
+
+  br {
+    margin: 0;
+    line-height: 1.2; /* Oder ein Wert, der für dich passt, z.B. 1.2 */
   }
   
-  .menu-icon {
-    position: fixed; /* Fixiert das Menü */
-    top: 10px; /* Abstand vom oberen Rand */
-    right: 10px; /* Abstand vom rechten Rand */
-    z-index: 1000; /* Stellt sicher, dass das Menü immer sichtbar ist */
+  
+
+  p {
+  margin-bottom: 5px; /* Reduziert den Abstand nach jedem Absatz */
+  line-height: 1.2; /* Anpassung der Zeilenhöhe */
 }
+
+/* Styling für den Footer */
+footer {
+  position: fixed; /* Fixiert den Footer am unteren Rand */
+  bottom: 0; /* Fügt den Footer an den unteren Rand des Bildschirms */
+  left: 0; /* Setzt den Footer an den linken Rand */
+  width: 100%; /* Volle Breite */
+  background-color: #1d1c1c; /* Dunkler Hintergrund */
+  color: white; /* Weiße Schrift */
+  padding: 10px 20px; /* 10px Abstand oben und unten, 20px Abstand rechts und links */
+  font-size: 14px; /* Schriftgröße */
+  text-align: right; /* Rechtsbündig im Footer */
+  z-index: 1000; /* Stellt sicher, dass der Footer immer oben liegt */
+}
+
+/* Styling für den Footer-Text */
+footer p {
+  margin: 0; /* Entfernt alle Margin, um es genau an den Rand zu positionieren */
+  padding-right: 30px; /* Fügt zusätzlichen Abstand zum rechten Rand hinzu */
+  font-size: 12px; /* Verkleinert die Schriftgröße */
+  font-weight: 200; /* Dünnerer Schriftstil (weniger dick) */
+}
+
+
 
 /* Hamburger Menü */
 .menu-icon {

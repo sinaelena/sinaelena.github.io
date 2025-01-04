@@ -6,40 +6,54 @@
     <title>HI, IAM SINA LANG</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="aboutme-style.css">
-</head>
-<body>
-    <header>
+
+    <body>
+        <header>
         <!-- Hamburger Menü Icon -->
-        <div class="menu-icon" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
+    <div class="menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    <!-- Navigation -->
+    <nav id="nav-menu" class="nav-menu">
+        <ul class="menu">
+            <!-- Link zu Home -->
+            <li><a href="index.html">Home</a></li>
+    
+            <!-- Link zu Projekte -->
+            <li><a href="projekte.html">Projekte</a></li>
+    
+            <link rel="stylesheet" href="projekte-style.css">
+    
+            <!-- Link zu About Me -->
+            <li><a href="about-me.html">About Me</a></li>
+        </ul>
+    </nav>
+        <script src="script.js"></script>
+    </body>
+    </html>
 
-        <!-- Navigation -->
-        <nav id="nav-menu" class="nav-menu">
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projekte.html">Projekte</a></li>
-                <li><a href="about-me.html">About Me</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Inhalt der Seite -->
-    <div class="about-me-container">
+      <!-- Foto unter der ersten Überschrift zentriert -->
+      <div class="about-me-container">
         <img src="Images/IMG_7087.jpg" alt="Foto von mir" class="about-me-image">
         <div class="about-me-text">
             <h1>HI IAM SINA LANG</h1>
-            <p>I'm an interfacedesign student based in Potsdam...</p>
+            <p> I'm an <strong> interfacedesign </strong> student based in <strong>Potsdam</strong> and I live in Brandenburg an der Havel. <br> 
+                <br>
+                 I am interested in <strong>UI</strong>/<strong>UX</strong>, <strong>AR</strong>/<strong>XR</strong> <strong>Graphic Design</strong>, <strong>Illustration</strong> & <strong>Animation</strong> <br>
+
+           <br> In the future, I want to focus more on <strong> working with AI </strong> and Artificial Intelligence, like <strong>Robots. </strong> <br>
+            I see a lot of potential in these fields and am passionate about staying <strong>up-to-date</strong> with the latest advancements.<br>
+           <br> I believe this <strong>Technology</strong> will shape the <strong>future</strong>, 
+  and I want to be part of that exciting journey.
+  <br class="tight-break">
         </div>
     </div>
-
+    
     <footer>
-        <p>© 2024 Sina Lang</p>
+        <p>&copy; 2025 Sina Lang. Alle Rechte vorbehalten.</p>
     </footer>
-
-    <!-- Verlinkung der JS-Datei -->
-    <script src="script.js"></script>
+   
 </body>
 </html>
