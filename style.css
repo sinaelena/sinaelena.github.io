@@ -236,7 +236,7 @@ img {
   border: 2px solid #fff; /* Weißer Rahmen */
   padding: 20px;
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
@@ -262,6 +262,11 @@ p {
   box-sizing: border-box;
   text-align: center;
   transition: transform 0.3s ease; /* Optional: Für einen Hover-Effekt */
+}
+
+.box p {
+  margin-bottom: 10px; /* Abstand zwischen den Absätzen */
+  line-height: 1.5; /* Größerer Zeilenabstand für bessere Lesbarkeit */
 }
 
 .box:hover {

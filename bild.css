@@ -85,30 +85,6 @@ p {
     color: #333; /* Schriftfarbe */
 }
 
-/* Button Styling */
-.nav a {
-    text-decoration: none; /* Keine Unterstreichung */
-    color: #000000; /* Weiße Schriftfarbe */
-    font-weight: lighter; /* Fettgedruckte Schrift */
-    text-transform: uppercase; /* Alle Buchstaben in Großbuchstaben */
-    transition: all 0.3s ease; /* Sanfte Übergänge für alle Effekte */
-}
-
-
-/* Der Hover-Effekt nur für das Wort "Portfolio" */
-.nav a span {
-    transition: transform 0.3s ease, color 0.3s ease; /* Übergang für Vergrößerung und Farbe */
-}
-
-.nav a:hover span {
-    transform: scale(1.2); /* Das Wort wird 20% größer */
-    color: #ffcc00; /* Gelbe Schriftfarbe beim Hover */
-}
-
-.nav a:active {
-    background-color: #ffcc00; /* Gelber Hintergrund, wenn der Button gedrückt wird */
-}
-
 /* Responsives Layout für kleinere Bildschirme */
 @media screen and (max-width: 768px) {
     body {
@@ -131,4 +107,43 @@ p {
         flex-direction: column;
         gap: 10px;
     }
+    
+}
+
+
+/* Get Back Pfeil Styling*/
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    z-index: 1000; /* Sicherstellen, dass der Button oben angezeigt wird */
+}
+
+.nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.nav a span {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    color: #000000;
+    color: #000; /* Farbe wird Schwarz */
+    font-weight: 700; /* Schrift wird dicker */
+    transform: rotate(45deg) scale(1.5); /* Pfeil wird größer (Zoom) */
 }
