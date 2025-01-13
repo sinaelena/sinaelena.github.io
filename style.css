@@ -478,7 +478,7 @@ img {
 
 @media (max-width: 768px) {
   .masonry {
-      grid-template-columns: repeat(2, 1fr); /* Auf Smartphones: 2 Spalten */
+      grid-template-columns: repeat(2, 1fr); /* Auf Smartphones: 3 Spalten */
   }
 }
 
