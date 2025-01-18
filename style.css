@@ -486,3 +486,34 @@ img {
 
 
 
+/* Links ohne Hintergrund */
+.top-links {
+  position: fixed; /* Fixiert die Links oben links auf der Seite */
+  top: 10px; /* Abstand von oben */
+  left: 10px; /* Abstand von links */
+  list-style: none; /* Entfernt die Standard-Listenpunkte */
+  padding: 0; /* Entfernt zusätzliches Padding */
+  margin: 0; /* Entfernt zusätzliches Margin */
+  z-index: 1000; /* Sicherstellen, dass die Links über anderem Inhalt liegen */
+  display: flex; /* Flexbox für die horizontale Anordnung */
+  gap: 20px; /* Abstand zwischen den Links */
+}
+
+.top-links li {
+  display: inline-block; /* Macht die Listenelemente inline */
+}
+
+.top-links li a {
+  color: #e7fc6e; /* Schriftfarbe */
+  text-decoration: none; /* Entfernt die Unterstreichung */
+  font-size: 1.2rem; /* Schriftgröße der Links */
+  font-weight: 400; /* Dünne Schrift */
+  background: none; /* Kein Hintergrund */
+  padding: 0; /* Entfernt das Padding */
+  margin: 0; /* Entfernt das Margin */
+}
+
+.top-links li a:hover {
+  color: #e7fc6e;  /* Schriftfarbe beim Hover */
+  background: none; /* Kein Hintergrund beim Hover */
+}

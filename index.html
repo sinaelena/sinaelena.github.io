@@ -7,23 +7,14 @@
     <link rel="stylesheet" type="text/css" href="style.css"> <!--Hier ist die CSS Datei verlinkt-->
       
     <!--Hier ist der Embed Code von Google Fonts eingefügt -->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spicy+Rice&display=swap" rel="stylesheet">
 </head>
 <h1><span>Sina</span><span>Lang</span></h1>
 
 <body>
 
     <header>
-    
-        <!-- Hamburger-Menü-Icon -->
-        <div class="menu-icon">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-        
-        <!-- Menü -->
-        <ul class="menu">
+        <ul class="top-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about-me.html">About Me</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -37,9 +28,7 @@
             <p>Web Development <br> 
                UI/UX Design <br>
                Adobe Suite  <br>
-              Motion Design  <br>
-               
-    
+               Motion Design  <br>
         </div>
         <div class="box">
             <h3>Interests</h3>
@@ -56,7 +45,7 @@
         </div>
     </div>
 
-    <!-- Navigation -->
+    <!-- Navigation für den Rest der Seite -->
     <nav id="nav-menu" class="nav-menu">
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
@@ -64,7 +53,7 @@
             <li><a href="about-me.html">About Me</a></li>
         </ul>
     </nav>
-    
+
     <script src="script.js"></script>
 
     <!-- Hier ist der Bereich mit den Bildern und den Verlinkungen -->
@@ -103,18 +92,48 @@
                 <img src="Images/meerrettich.jpg" width="300" height="200" alt="Bild 5">
             </a>
         </div>
-        
     </div>
+
     <footer>
         <p>&copy; 2025 Sina Lang. All rights reserved.</p>
         <p>
             <a href="privacy-policy.html" class="footer-link">Privacy Policy</a> | 
             <a href="terms-conditions.html" class="footer-link">Terms and Conditions</a>
         </p>
-    
     </footer>
-    
+
     <style>
+        /* Neue Navigation Styles */
+        .navbar {
+            background-color: #333;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .nav-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .nav-list li {
+            margin-right: 20px;
+        }
+
+        .nav-list a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-list a:hover {
+            color: #f1f1f1;
+        }
+
+        /* Weitere Styles wie vorher */
         footer {
             background-color: #1d1c1c;
             padding: 10px 0; /* Wenig vertikalen Abstand, um den Footer kompakt zu halten */
@@ -126,31 +145,32 @@
             box-sizing: border-box; /* Verhindert, dass der Footer über den Bildschirm hinausragt */
             padding-left: 20px;
         }
-    
+
         footer p {
             margin: 5px 0; /* Wenig Abstand zwischen den Absätzen */
             text-align: left
         }
-    
+
         .footer-link {
             color: #e7fc6e; /* Die gewünschte grüne Farbe für die Links */
             text-decoration: none; /* Entfernt die Standard-Unterstreichung */
             font-weight: bold;
         }
-    
+
         .footer-link:hover {
             text-decoration: underline; /* Unterstreichung beim Hover */
         }
-    
+
         footer a {
             color: #333; /* Setzt die Farbe der sozialen Medien-Links auf Dunkelgrau */
             text-decoration: none;
         }
-    
+
         footer a:hover {
             color: #e7fc6e; /* Grüne Farbe bei Hover für soziale Medien-Links */
         }
     </style>
-     
+
 </body>
 </html>
+
