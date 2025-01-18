@@ -177,15 +177,14 @@ h1 {
     color: #333;
     margin-bottom: 20px;
 }
-
 h2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
-    color: #333; ;
+    color: #333;
     margin-bottom: 10px;
     position: relative;
     top: -500px;
-    left: 80px;
+    left: -50px;  /* Hier den Wert geändert, um die Überschrift weiter nach links zu verschieben */
 }
 
 @media screen and (max-width: 768px) {
