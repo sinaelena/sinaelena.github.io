@@ -1,16 +1,3 @@
-// Funktion, um das Menü anzuzeigen oder zu verbergen
-function toggleMenu() {
-    const menu = document.querySelector('.menu'); // Menü-Element
-    console.log('Hamburger Menu clicked!'); // Debugging-Hilfe
-    menu.classList.toggle('open'); // Menü öffnen oder schließen
-  }
-  
-  // Event Listener für das Hamburger-Icon hinzufügen
-  const hamburger = document.querySelector('.menu-icon');
-  hamburger.addEventListener('click', toggleMenu);
-  
-
-
 const canvas = document.getElementById("fluidCanvas");
 const ctx = canvas.getContext("2d");
 
@@ -42,4 +29,19 @@ canvas.addEventListener("mouseleave", function() {
     ctx.clearRect(0, 0, canvas.width, canvas.height); // Canvas löschen
 });
 
+let scrollTimer;
 
+// Beim Scrollen die Sichtbarkeit des Scrollbalkens steuern
+window.addEventListener('scroll', () => {
+  // Scrollbalken sichtbar machen, wenn der Benutzer scrollt
+  document.documentElement.style.setProperty('--scrollbar-opacity', '1');
+  
+  // Wenn nach einer Sekunde nicht mehr gescrollt wird, Scrollbalken wieder ausblenden
+  clearTimeout(scrollTimer);
+  scrollTimer = setTimeout(() => {
+    document.documentElement.style.setProperty('--scrollbar-opacity', '0');
+  }, 1000); // 1 Sekunde nach dem letzten Scrollen
+});
+
+// Setzt die CSS-Variable für den Scrollbalken auf unsichtbar, wenn die Seite geladen wird
+document.documentElement.style.setProperty('--scrollbar-opacity', '0');
