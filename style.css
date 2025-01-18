@@ -146,7 +146,7 @@ img {
 
 /* Hover-Effekt: Schriftfarbe wird dunkel-pink, ohne Hintergrund */
 .menu li a:hover {
-    color: #ea8cbd; /* Dunkel-pink beim Hover */
+    color:  #e7fc6e;  /* Dunkel-pink beim Hover */
 }
 
 /* Standard: Menü ist unsichtbar */

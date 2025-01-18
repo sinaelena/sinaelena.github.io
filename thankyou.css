@@ -40,7 +40,7 @@ body {
 h1 {
     font-size: 4rem; /* Große Schriftgröße für den Titel */
     font-weight: 700; /* Dicke Schrift */
-    color: #FF69B4; /* Pinke Farbe für den Header */
+    color:  #e7fc6e; /* Pinke Farbe für den Header */
     margin-bottom: 20px;
     line-height: 1.4;
 }
@@ -70,7 +70,7 @@ p {
 
 .home-link:hover {
     transform: scale(1.1);
-    color: #d85a9b; /* Helleres Pink beim Hover */
+    color: #e7fc6e; /* Helleres Pink beim Hover */
 }
 
 /* Responsivität für kleinere Bildschirme */
@@ -82,3 +82,4 @@ p {
         font-size: 1.5rem;
     }
 }
+

@@ -3,6 +3,7 @@
 /* Grundlegendes Layout */
 body {
   font-family: 'Quicksand', sans-serif;
+  
 }
 
 .about-me-container {
@@ -50,27 +51,6 @@ body {
   line-height: 1.2; /* Anpassung der Zeilenhöhe */
 }
 
-/* Styling für den Footer */
-footer {
-  position: fixed; /* Fixiert den Footer am unteren Rand */
-  bottom: 0; /* Fügt den Footer an den unteren Rand des Bildschirms */
-  left: 0; /* Setzt den Footer an den linken Rand */
-  width: 100%; /* Volle Breite */
-  background-color: #1d1c1c; /* Dunkler Hintergrund */
-  color: white; /* Weiße Schrift */
-  padding: 10px 20px; /* 10px Abstand oben und unten, 20px Abstand rechts und links */
-  font-size: 14px; /* Schriftgröße */
-  text-align: right; /* Rechtsbündig im Footer */
-  z-index: 1000; /* Stellt sicher, dass der Footer immer oben liegt */
-}
-
-/* Styling für den Footer-Text */
-footer p {
-  margin: 0; /* Entfernt alle Margin, um es genau an den Rand zu positionieren */
-  padding-right: 30px; /* Fügt zusätzlichen Abstand zum rechten Rand hinzu */
-  font-size: 12px; /* Verkleinert die Schriftgröße */
-  font-weight: 200; /* Dünnerer Schriftstil (weniger dick) */
-}
 
 
 
@@ -110,4 +90,40 @@ footer p {
 .nav-menu a {
   text-decoration: none;
   color: black;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Stellt sicher, dass der Footer über die gesamte Breite geht */
+  background-color: #1d1c1c;
+  padding: 10px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+footer p {
+  margin: 5px 0;
+  text-align: left;
+  font-size: 15px; /* Kleinere Schriftgröße für den Footer */
+}
+
+.footer-link {
+  color: #e7fc6e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #e7fc6e;
 }

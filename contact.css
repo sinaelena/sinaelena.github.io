@@ -4,6 +4,7 @@ body {
     background-color: #000000; /* Hintergrundfarbe Schwarz */
     color: #fff; /* Schriftfarbe Weiß */
     margin: 0;
+    min-height: 100vh;
     padding: 0;
 }
 
@@ -24,7 +25,7 @@ h1 {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 30px;
-    color:#d85a9b; /* Schriftfarbe Weiß für den Titel */
+    color: #e7fc6e;  /* Schriftfarbe Weiß für den Titel */
 }
 
 /* Formular */
@@ -68,7 +69,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #d85a9b; /* Dunklere pinke Farbe beim Hover */
+    background-color: #e7fc6e; /* Dunklere pinke Farbe beim Hover */
     color: #fff; /* Weißer Text, wenn man darüber hoveriert */
 }
 
@@ -93,7 +94,7 @@ form button:hover {
 }
 
 .social-links a:hover {
-    color: #FF69B4; /* Pinke Farbe für Links beim Hover */
+    color:  #e7fc6e;  /* Pinke Farbe für Links beim Hover */
     transform: scale(1.2); /* Links werden beim Hover größer */
     font-size: 1.3em; /* Schriftgröße wird beim Hover größer */
 }
@@ -103,4 +104,9 @@ form button:hover {
     .container {
         width: 90%;
     }
+}
+
+form button:hover {
+    background-color: #e7fc6e; /* Dunklere pinke Farbe beim Hover */
+    color: #000; /* Textfarbe bleibt schwarz */
 }
