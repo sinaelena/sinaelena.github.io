@@ -517,17 +517,25 @@ img {
   color: #e7fc6e;  /* Schriftfarbe beim Hover */
   background: none; /* Kein Hintergrund beim Hover */
 }
-
 .projekte-section {
-  text-align: center; /* Zentriert die Überschrift */
-  margin-top: 30px; /* Abstand nach oben */
-  margin-bottom: 80px;
+  text-align: left; /* Links ausrichten */
+  margin-top: 10px; /* Verringert den Abstand nach oben */
 }
 
 .projekte-heading {
-  font-size: 1.8rem; /* Größe der Überschrift */
+  font-size: 1rem; /* Noch kleinere Schriftgröße */
   color: white; /* Weiße Schrift */
-  font-weight: 400; /* Leichtes Gewicht der Schrift */
+  font-weight: 100; /* Dünne Schrift */
   text-transform: uppercase; /* Großbuchstaben */
-  margin-bottom: 20px; /* Platz unter der Überschrift */
+  margin-bottom: 30px; /* Verringert den Abstand unter der Überschrift */
 }
+
+/* Stil für die Überschrift innerhalb des Masonry Layouts */
+.masonry .item .image-title {
+  font-family: 'Quicksand', sans-serif;  /* Schriftart setzen */
+  color: #e7fc6e;  /* Schriftfarbe Neon-Gelb */
+  text-align: center;  /* Links ausrichten */
+  font-size: 0.9em;  /* Noch kleinere Schriftgröße */
+  font-weight: 200;  /* Dünne Schrift */
+}
+
