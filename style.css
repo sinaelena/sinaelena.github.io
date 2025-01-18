@@ -539,3 +539,12 @@ img {
   font-weight: 200;  /* Dünne Schrift */
 }
 
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative; /* Positioniert den Footer nach dem normalen Layoutfluss */
+  margin-top: 200px; /* Fügt mehr Abstand nach oben hinzu */
+}
