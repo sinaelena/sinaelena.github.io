@@ -518,3 +518,16 @@ img {
   background: none; /* Kein Hintergrund beim Hover */
 }
 
+.projekte-section {
+  text-align: center; /* Zentriert die Überschrift */
+  margin-top: 30px; /* Abstand nach oben */
+  margin-bottom: 80px;
+}
+
+.projekte-heading {
+  font-size: 1.8rem; /* Größe der Überschrift */
+  color: white; /* Weiße Schrift */
+  font-weight: 400; /* Leichtes Gewicht der Schrift */
+  text-transform: uppercase; /* Großbuchstaben */
+  margin-bottom: 20px; /* Platz unter der Überschrift */
+}
