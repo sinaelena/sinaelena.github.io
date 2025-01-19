@@ -47,8 +47,8 @@ form textarea {
     font-size: 1em;
     border: 1px solid #ddd; /* Leichter Rand für Felder */
     border-radius: 5px;
-    background-color: #333; /* Dunkler Hintergrund für Eingabefelder */
-    color: #fff; /* Weißer Text für die Felder */
+    background-color: #333; 
+    color: #fff; 
 }
 
 form input::placeholder,
@@ -69,8 +69,8 @@ form button {
 }
 
 form button:hover {
-    background-color: #e7fc6e; /* Dunklere pinke Farbe beim Hover */
-    color: #fff; /* Weißer Text, wenn man darüber hoveriert */
+    background-color: #e7fc6e; 
+    color: #fff; 
 }
 
 /* Social Media Links */
@@ -94,9 +94,9 @@ form button:hover {
 }
 
 .social-links a:hover {
-    color:  #e7fc6e;  /* Pinke Farbe für Links beim Hover */
-    transform: scale(1.2); /* Links werden beim Hover größer */
-    font-size: 1.3em; /* Schriftgröße wird beim Hover größer */
+    color:  #e7fc6e;  
+    transform: scale(1.2); 
+    font-size: 1.3em; 
 }
 
 /* Responsivität */
@@ -107,8 +107,8 @@ form button:hover {
 }
 
 form button:hover {
-    background-color: #e7fc6e; /* Dunklere pinke Farbe beim Hover */
-    color: #000; /* Textfarbe bleibt schwarz */
+    background-color: #e7fc6e; 
+    color: #000; 
 }
 
 
@@ -130,16 +130,15 @@ form button:hover {
   }
   
   .top-links li a {
-    color: #e7fc6e; /* Schriftfarbe */
-    text-decoration: none; /* Entfernt die Unterstreichung */
-    font-size: 1.2rem; /* Schriftgröße der Links */
-    font-weight: 400; /* Dünne Schrift */
-    background: none; /* Kein Hintergrund */
-    padding: 0; /* Entfernt das Padding */
-    margin: 0; /* Entfernt das Margin */
+    color: #e7fc6e; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+    font-weight: 400; 
+    background: none; 
+    margin: 0; 
   }
   
   .top-links li a:hover {
-    color: #e7fc6e;  /* Schriftfarbe beim Hover */
-    background: none; /* Kein Hintergrund beim Hover */
+    color: #e7fc6e;  
+    background: none; 
   }

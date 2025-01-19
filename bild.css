@@ -29,7 +29,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    position: relative; /* Hier wird relative Positionierung hinzugefügt */
+    position: relative; 
 }
 
 /* Text-Abschnitt für die Bildbeschreibung */
@@ -91,7 +91,7 @@ img {
 /* Get Back Pfeil Styling */
 .nav {
     position: absolute;
-    top: 50px; /* Erhöhe diesen Wert, um den Button weiter nach unten zu verschieben */
+    top: 50px; 
     left: 40px; 
     z-index: 1000; 
 }
@@ -112,17 +112,17 @@ img {
 }
 
 .nav a:hover {
-    color: #000000; /* Neon-Grün für Hover */
-    font-weight: 700; /* Schrift wird fett */
-    transform: rotate(15deg) scale(1.2); /* Leichte Drehung und Vergrößerung */
-    transition: transform 0.3s ease, color 0.3s ease; /* Sanfter Übergang */
+    color: #000000; 
+    font-weight: 700; 
+    transform: rotate(15deg) scale(1.2); 
+    transition: transform 0.3s ease, color 0.3s ease; 
 }
 
 .nav a:active {
-    color: #e7fc6e; /* Neon-Gelb für Klick */
-    font-weight: 700; /* Schrift bleibt fett */
-    transform: rotate(15deg) scale(1.2); /* Leichte Drehung und Vergrößerung bleibt */
-    transition: transform 0.3s ease, color 0.1s ease; /* Schneller Übergang für den Klick */
+    color: #e7fc6e; 
+    font-weight: 700;
+    transform: rotate(15deg) scale(1.2); 
+    transition: transform 0.3s ease, color 0.1s ease; 
 }
 
 
@@ -255,3 +255,4 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
+
