@@ -1,0 +1,33 @@
+/* Grundlayout für Privacy Policy und Impressum */
+body {
+    background-color: #1d1c1c;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container für den Inhalt */
+.content-container {
+    max-width: 800px;
+    padding: 40px;
+    text-align: left;
+}
+
+/* Überschrift */
+.content-container h1 {
+    color: #e7fc6e; /* Neon-Gelb */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Textstil */
+.content-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

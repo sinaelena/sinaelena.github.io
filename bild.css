@@ -13,8 +13,8 @@ body {
 /* Body und allgemeine Einstellungen */
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #000000; /* Sehr heller Hintergrund */
-    color: #ffffff; /* Dunkler Text für gute Lesbarkeit */
+    background-color: #000000; 
+    color: #ffffff; 
     line-height: 1.6;
     padding: 40px;
     font-size: 18px;
@@ -165,8 +165,8 @@ img {
 .additional-images .masonry .item:nth-child(1),
 .additional-images .masonry .item:nth-child(2),
 .additional-images .masonry .item:nth-child(3) {
-    transform: translateY(-50px); /* Verschiebt die Bilder 50px nach oben */
-    margin-top: -20px; /* Optional, falls `transform` nicht genug ist */
+    transform: translateY(-50px); 
+    margin-top: -20px; 
 }
 
 
@@ -184,7 +184,7 @@ h2 {
     margin-bottom: 10px;
     position: relative;
     top: -500px;
-    left: -50px;  /* Hier den Wert geändert, um die Überschrift weiter nach links zu verschieben */
+    left: -50px;  
 }
 
 @media screen and (max-width: 768px) {
@@ -227,15 +227,15 @@ p {
 }
 
 .masonry .item {
-    padding: 10px; /* Fügt Platz um jedes Bild und Video hinzu */
+    padding: 10px; 
 }
 
 @media screen and (max-width: 768px) {
     .masonry {
-        grid-template-columns: 1fr; /* Eine Spalte für kleinere Bildschirme */
+        grid-template-columns: 1fr; 
     }
     .nav a {
-        font-size: 14px; /* Kleinere Schrift für den mobilen Bildschirm */
+        font-size: 14px; 
     }
 }
 
