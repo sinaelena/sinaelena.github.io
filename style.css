@@ -696,8 +696,8 @@ a:hover {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 0; /* Hält den Footer immer am unteren Rand */
   width: 100%; /* Stellt sicher, dass der Footer über die gesamte Breite geht */
   background-color: #1d1c1c;
   padding: 10px 0;
@@ -730,3 +730,22 @@ footer a {
 footer a:hover {
   color: #e7fc6e;
 }
+
+h1 {
+  text-align: center; /* Zentriert den Text */
+  margin-top: 50px;
+  font-size: 3em;
+  line-height: 1.2;
+  font-weight: 400; 
+  font-size: 1.5rem; 
+  line-height: 1.1; 
+}
+
+.masonry {
+  padding-bottom: 150px; /* Vergrößert den Abstand zum Footer */
+}
+
+h3 {
+  text-align: center; /* Zentriert den Text */
+}
+
