@@ -696,14 +696,15 @@ a:hover {
 }
 
 footer {
-  position: fixed;
-  bottom: 0; /* Hält den Footer immer am unteren Rand */
-  width: 100%; /* Stellt sicher, dass der Footer über die gesamte Breite geht */
   background-color: #1d1c1c;
   padding: 10px 0;
   text-align: center;
   font-family: Arial, sans-serif;
   color: #333;
+  margin-top: 100px; /* Mehr Abstand zum Inhalt */
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 20px;
 }
 
 footer p {
@@ -749,3 +750,14 @@ h3 {
   text-align: center; /* Zentriert den Text */
 }
 
+/* Stelle sicher, dass alle Überschriften linksbündig sind */
+.imprint-container h1, .imprint-container h2 {
+  text-align: left; /* Setzt die Ausrichtung auf links */
+  margin-left: 20px; /* Optional: fügt linken Abstand hinzu, damit es schön aussieht */
+}
+
+/* Zusätzliche Regel für Absätze, um sie ebenfalls linksbündig zu halten */
+.imprint-container p {
+  text-align: left; /* Setzt die Ausrichtung der Absätze auf links */
+  margin-left: 20px; /* Optional: fügt linken Abstand hinzu */
+}
