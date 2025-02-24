@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imprint</title>
-    <link rel="stylesheet" href="privacy-impressum-style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spicy+Rice&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header mit Links -->
     <header>
         <ul class="top-links">
             <li><a href="index.html">Home</a></li>
@@ -15,6 +17,17 @@
         </ul>
     </header>
 
+    <!-- Navigationsmenü -->
+    <nav id="nav-menu" class="nav-menu">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projekte.html">Projekte</a></li>
+            <link rel="stylesheet" href="projekte-style.css">
+            <li><a href="about-me.html">About Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Impressum-Inhalt -->
     <div class="imprint-container">
         <h1>Imprint</h1>
 
@@ -44,13 +57,51 @@
         <p>For online dispute resolution, the European Commission provides a platform, which can be accessed here: <a href="https://ec.europa.eu/consumers/odr" target="_blank">ODR Platform</a>. I am not obligated to participate in dispute resolution before a consumer arbitration board.</p>
     </div>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Sina Lang All rights reserved.</p>
-        <p><a href="Impressum.html" class="footer-link">impressum.html</a> | <a href="terms-conditions.html" class="footer-link">Terms and Conditions</a></p>
+        <p>&copy; 2025 Sina Lang. All rights reserved.</p>
+        <p>
+            <a href="privacy-policy.html" class="footer-link">Privacy Policy</a> | 
+            <a href="Impressum.html" class="footer-link">Imprint</a>
+        </p>
     </footer>
+
+    <style>
+        footer {
+            background-color: #1d1c1c;
+            padding: 10px 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin-top: 40px;
+            width: 100%;
+            box-sizing: border-box;
+            padding-left: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+            text-align: left;
+        }
+
+        .footer-link {
+            color: #e7fc6e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        footer a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #e7fc6e;
+        }
+    </style>
 </body>
 </html>
-
-
-
-

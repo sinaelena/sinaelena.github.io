@@ -605,3 +605,99 @@ button:hover {
   background-color: #0056b3; /* Für Buttons eine Hintergrundfarbe beim Hover */
   color: white;
 }
+
+
+
+/* Impressum-Seite */
+
+
+.imprint-container {
+  max-width: 800px; /* Begrenze die Breite */
+  margin: 0 auto;  /* Zentriert den Container */
+  padding: 20px;  /* Abstand vom Rand */
+  text-align: left; /* Text linksbündig */
+  font-family: Arial, sans-serif; /* Schriftart */
+  line-height: 1.6; /* Zeilenhöhe für bessere Lesbarkeit */
+}
+
+.imprint-container h1 {
+  color: #FFFF00;  /* Neon-gelbe Farbe für die Überschrift */
+  font-size: 36px;  /* Große Schrift für die Überschrift */
+  margin-bottom: 20px; /* Abstand nach unten */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left; /* Alle Überschriften linksbündig */
+}
+
+.imprint-container {
+  text-align: left; /* Links ausrichten */
+  margin-left: 20px; /* Weiter nach links verschieben */
+}
+
+a[href^="mailto:"] {
+  color: #FFFF00; /* Neongelb für E-Mail */
+}
+
+.imprint-container {
+  margin-top: 50px; /* Abstand nach oben */
+}
+
+
+
+.odr-link {
+  color: #FFFF00; /* Neongelb */
+  text-decoration: none;
+}
+
+a[href="https://ec.europa.eu/consumers/odr"] {
+  color: #FFFF00; /* Neongelb */
+  text-decoration: none;
+}
+
+a[href="https://ec.europa.eu/consumers/odr"]:hover {
+  text-decoration: underline;
+}
+
+
+/* Datenschutz-Seite */
+.privacy-container {
+  max-width: 800px; /* Begrenze die Breite */
+  margin: 0 auto;  /* Zentriert den Container */
+  padding: 20px;  /* Abstand vom Rand */
+  text-align: left; /* Text linksbündig */
+  font-family: Arial, sans-serif; /* Schriftart */
+  line-height: 1.6; /* Zeilenhöhe für bessere Lesbarkeit */
+}
+
+.privacy-container h1 {
+  color: #FFFF00;  /* Neon-gelbe Farbe für die Überschrift */
+  font-size: 36px;  /* Große Schrift für die Überschrift */
+  margin-bottom: 20px; /* Abstand nach unten */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left; /* Alle Überschriften linksbündig */
+}
+
+.privacy-container {
+  text-align: left; /* Links ausrichten */
+  margin-left: 20px; /* Weiter nach links verschieben */
+}
+
+a[href^="mailto:"] {
+  color: #FFFF00; /* Neongelb für E-Mail */
+}
+
+.privacy-container {
+  margin-top: 50px; /* Abstand nach oben */
+}
+
+a[href="https://ec.europa.eu/consumers/odr"] {
+  color: #FFFF00; /* Neongelb */
+  text-decoration: none;
+}
+
+a[href="https://ec.europa.eu/consumers/odr"]:hover {
+  text-decoration: underline;
+}
