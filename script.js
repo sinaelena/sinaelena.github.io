@@ -43,5 +43,9 @@ window.addEventListener('scroll', () => {
   }, 1000); // 1 Sekunde nach dem letzten Scrollen
 });
 
-// Setzt die CSS-Variable für den Scrollbalken auf unsichtbar, wenn die Seite geladen wird
+// Initiale Einstellung: Setzt die Opazität auf 0, wenn die Seite geladen wird
 document.documentElement.style.setProperty('--scrollbar-opacity', '0');
+// Anfangs den Scrollbalken verstecken
+document.body.style.overflowY = 'hidden';
+
+
