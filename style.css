@@ -621,7 +621,7 @@ button:hover {
 }
 
 .imprint-container h1 {
-  color: #FFFF00;  /* Neon-gelbe Farbe für die Überschrift */
+  color: #e7fc6e;  /* Neon-gelbe Farbe für die Überschrift */
   font-size: 36px;  /* Große Schrift für die Überschrift */
   margin-bottom: 20px; /* Abstand nach unten */
 }
@@ -636,7 +636,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a[href^="mailto:"] {
-  color: #FFFF00; /* Neongelb für E-Mail */
+  color:  #e7fc6e;/* Neongelb für E-Mail */
 }
 
 .imprint-container {
@@ -646,12 +646,12 @@ a[href^="mailto:"] {
 
 
 .odr-link {
-  color: #FFFF00; /* Neongelb */
+  color: #e7fc6e; /* Neongelb */
   text-decoration: none;
 }
 
 a[href="https://ec.europa.eu/consumers/odr"] {
-  color: #FFFF00; /* Neongelb */
+  color:  #e7fc6e; /* Neongelb */
   text-decoration: none;
 }
 
@@ -672,7 +672,7 @@ a[href="https://ec.europa.eu/consumers/odr"]:hover {
 }
 
 .privacy-container h1 {
-  color: #FFFF00; /* Neongelb für die Überschrift */
+  color:  #e7fc6e; /* Neongelb für die Überschrift */
   font-size: 36px;
   margin-bottom: 20px;
 }
@@ -687,7 +687,7 @@ p {
 }
 
 a {
-  color: #e7fc6e; /* Link-Farbe */
+  color:  #e7fc6e; /* Link-Farbe */
   text-decoration: none;
 }
 
@@ -713,7 +713,7 @@ footer p {
 }
 
 .footer-link {
-  color: #e7fc6e;
+  color:  #e7fc6e;
   text-decoration: none;
   font-weight: bold;
 }
@@ -728,7 +728,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #e7fc6e;
+  color:  #e7fc6e;
 }
 
 h1 {
