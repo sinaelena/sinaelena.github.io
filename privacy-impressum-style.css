@@ -31,3 +31,16 @@ body {
     line-height: 1.6;
     margin-bottom: 15px;
 }
+
+.content-container {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300; /* Dünnerer Text */
+}
+
+h1, h2 {
+    font-weight: 500; /* Etwas dicker für Überschriften */
+}
+
+p {
+    font-weight: 300; /* Dünnerer Text */
+}
