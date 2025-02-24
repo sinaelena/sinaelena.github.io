@@ -663,7 +663,8 @@ a[href="https://ec.europa.eu/consumers/odr"]:hover {
 /* Datenschutz-Seite */
 .privacy-container {
   max-width: 800px; /* Begrenze die Breite */
-  margin: 0 auto;  /* Zentriert den Container */
+  margin-left: 20px; /* Verschiebe nach links */
+  margin-top: 50px; /* Abstand nach oben */
   padding: 20px;  /* Abstand vom Rand */
   text-align: left; /* Text linksbündig */
   font-family: Arial, sans-serif; /* Schriftart */
@@ -671,33 +672,25 @@ a[href="https://ec.europa.eu/consumers/odr"]:hover {
 }
 
 .privacy-container h1 {
-  color: #FFFF00;  /* Neon-gelbe Farbe für die Überschrift */
-  font-size: 36px;  /* Große Schrift für die Überschrift */
-  margin-bottom: 20px; /* Abstand nach unten */
+  color: #FFFF00; /* Neongelb für die Überschrift */
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   text-align: left; /* Alle Überschriften linksbündig */
 }
 
-.privacy-container {
-  text-align: left; /* Links ausrichten */
-  margin-left: 20px; /* Weiter nach links verschieben */
+p {
+  font-size: 18px;
+  color: #ddd; /* Textfarbe */
 }
 
-a[href^="mailto:"] {
-  color: #FFFF00; /* Neongelb für E-Mail */
-}
-
-.privacy-container {
-  margin-top: 50px; /* Abstand nach oben */
-}
-
-a[href="https://ec.europa.eu/consumers/odr"] {
-  color: #FFFF00; /* Neongelb */
+a {
+  color: #e7fc6e; /* Link-Farbe */
   text-decoration: none;
 }
 
-a[href="https://ec.europa.eu/consumers/odr"]:hover {
+a:hover {
   text-decoration: underline;
 }
