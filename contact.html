@@ -15,26 +15,34 @@
     <section id="contact">
         <div class="container">
             <h1>Contact Me</h1>
-            <!-- Formular Action geändert, um zur thankyou.html weiterzuleiten -->
-            <form action="thankyou.html" method="get" id="contact-form">
+            <!-- Formular Action geändert, um zur Formspree URL weiterzuleiten -->
+            <form action="https://formspree.io/f/xvgzjady?redirect=https://sinaelena.github.io/thankyou.html" method="POST" id="contact-form">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Your name" required>
-
+            
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Your email" required>
-
+            
                 <label for="message">Message</label>
                 <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
-
-                <!-- Button Textfarbe auf Schwarz geändert -->
-                <button type="submit">Send</button>
+            
+                <!-- hCaptcha -->
+                <div class="h-captcha" data-sitekey="98b63920-b9a2-46ba-a590-51da10dca4e6"></div>
+            
+                <button type="submit">Absenden</button>
             </form>
+            
+            
+
+            <!-- hCaptcha Script -->
+            <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 
             <div class="social-links">
                 <p>Or connect with me:</p>
                 <a href="https://www.instagram.com/sinalang.design/" target="_blank">Instagram</a>
                 <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
             </div>
+
         </div>
     </section>
 
@@ -50,40 +58,47 @@
     <style>
         footer {
             background-color: #1d1c1c;
-            padding: 10px 0; /* Wenig vertikalen Abstand, um den Footer kompakt zu halten */
+            padding: 10px 0;
             text-align: center;
             font-family: Arial, sans-serif;
-            color: #ffffff; /* Dunkelgraue Schriftfarbe für den Kontrast */
-            margin-top: 40px; /* Abstand zum restlichen Inhalt (Bilder, Texte etc.) */
-            width: 100%; /* Stellt sicher, dass der Footer über die gesamte Breite geht */
-            box-sizing: border-box; /* Verhindert, dass der Footer über den Bildschirm hinausragt */
+            color: #ffffff;
+            margin-top: 40px;
+            width: 100%;
+            box-sizing: border-box;
             padding-left: 20px;
         }
 
         footer p {
-            margin: 5px 0; /* Wenig Abstand zwischen den Absätzen */
+            margin: 5px 0;
             text-align: left;
         }
 
         .footer-link {
-            color: #e7fc6e; /* Die gewünschte grüne Farbe für die Links */
-            text-decoration: none; /* Entfernt die Standard-Unterstreichung */
+            color: #e7fc6e;
+            text-decoration: none;
             font-weight: bold;
         }
 
         .footer-link:hover {
-            text-decoration: underline; /* Unterstreichung beim Hover */
+            text-decoration: underline;
         }
 
         footer a {
-            color: #333; /* Setzt die Farbe der sozialen Medien-Links auf Dunkelgrau */
+            color: #333;
             text-decoration: none;
         }
 
         footer a:hover {
-            color: #e7fc6e; /* Grüne Farbe bei Hover für soziale Medien-Links */
+            color: #e7fc6e;
+        }
+
+        .h-captcha {
+            margin-bottom: 20px;
+        }
+
+        button {
+            margin-top: 10px;
         }
     </style>
 </body>
 </html>
-
