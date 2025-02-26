@@ -763,6 +763,11 @@ h3 {
 }
 
 
+/* Versteckt den Standard-Cursor */
 body {
-  cursor: url('/assets/cursor/neongelber_cursor_fixed.png') 20 20, auto;
+  cursor: none;
+}
+
+body {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="2" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="2" fill="none" /%3E%3C/svg%3E') 10 10, auto;
 }
