@@ -358,3 +358,131 @@ button,
   cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1" fill="none" /%3E%3C/svg%3E') 10 10, auto;
 }
 
+/* Anpassungen für die Bilddarstellung auf kleinen Bildschirmen */
+@media screen and (max-width: 768px) {
+    /* Anpassung für den Container */
+    .container {
+        padding: 10px; /* Weniger Innenabstand auf kleinen Bildschirmen */
+    }
+
+    /* Masonry Grid für kleine Bildschirme (nur eine Spalte) */
+    .masonry {
+        grid-template-columns: 1fr; /* Nur eine Spalte */
+        gap: 15px; /* Kleinere Lücke zwischen den Elementen */
+    }
+
+    /* Anpassung für die einzelnen Bilder */
+    .masonry .item img {
+        width: 100%; /* Bilder nehmen die volle Breite des Containers ein */
+        height: auto; /* Höhe passt sich automatisch an */
+        border-radius: 8px;
+        box-shadow: none; /* Optional: Schatten entfernen */
+        transition: transform 0.3s ease-in-out; /* Übergangseffekt für Animationen */
+    }
+
+    /* Optimierung der Textbeschreibung (p) */
+    p {
+        font-size: 16px; /* Kleinere Schrift für Mobilgeräte */
+        position: relative;
+        top: 0; /* Optional: Anpassung der Position */
+        left: 0;
+        margin-bottom: 20px; /* Weniger Abstand zum unteren Rand */
+        text-align: center; /* Text mittig ausrichten */
+    }
+
+    /* Anpassungen für die Masonry-Items (d.h. für die einzelnen Bilder) */
+    .masonry .item {
+        padding: 10px; /* Weniger Padding für die Items */
+        margin-bottom: 20px; /* Weniger Abstand zwischen den Bildern */
+    }
+
+    /* Anpassung der Schriftgrößen für Überschriften */
+    h1 {
+        font-size: 28px; /* Kleinere Schrift für den Titel */
+    }
+
+    h2 {
+        font-size: 24px; /* Kleinere Schrift für Untertitel */
+    }
+
+    /* Optimierung für das Verhalten der Navigation auf Mobilgeräten */
+    .nav a {
+        font-size: 14px; /* Kleinere Schrift für Navigationslinks */
+    }
+
+    /* Optional: Anpassung des Abstandes in der .masonry */
+    .masonry .item:nth-child(1),
+    .masonry .item:nth-child(2),
+    .masonry .item:nth-child(3) {
+        margin-top: 20px; /* Weniger Abstand zwischen den oberen Elementen */
+    }
+
+    /* Weitere Anpassungen für die Animationen von Bildern */
+    .masonry .item img {
+        opacity: 0;
+        transform: scale(0.9);
+        animation: fadeIn 0.6s ease forwards;
+    }
+
+    /* Keyframe-Animation für das langsame Einblenden der Bilder */
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}
+
+/* CSS für h2 in bild2.html - nach unten verschieben */
+#bild2-h2 {
+    margin-top: 50px;  /* Beispielwert, anpassen nach Bedarf */
+}
+
+/* CSS für p in bild2.html - nach oben verschieben */
+#bild2-p {
+    margin-top: -20px;  /* Beispielwert, anpassen nach Bedarf */
+}
+
+/* Bild3-spezifische Anpassungen */
+
+/* h2 (ONE DAY) weiter nach unten und nach links verschieben */
+#bild3-h2 {
+    margin-top: 50px;   /* Verschiebung nach unten */
+    margin-left: -90px; /* Verschiebung nach links */
+}
+
+/* p-Text weiter nach oben verschieben */
+#bild3-p {
+    margin-top: -50px;  /* Verschiebung nach oben */
+}
+
+/* Bild4-spezifische Anpassungen */
+
+/* h2 (BEYOND THE LETTER) weiter nach unten und nach links verschieben */
+#bild4-h2 {
+    margin-top: 50px;   /* Verschiebung nach unten */
+    margin-left: -40px; /* Verschiebung nach links */
+    margin-left: 80px;  /* Verschiebung nach rechts */
+}
+
+/* p-Text weiter nach oben verschieben */
+#bild4-p {
+    margin-top: -30px;  /* Verschiebung nach oben */
+}
+#bild4-p {
+    margin-top: -30px;  /* Verschiebung nach oben */
+}
+
+
+/* Bild5-spezifische Anpassungen */
+
+/* h2 (KOCHS HORSERADISH) weiter nach rechts verschieben */
+#bild5-h2 {
+    margin-left: 90px;  /* Verschiebung nach rechts */
+    margin-top: -30px; 
+}
+
+/* Optional: Wenn du auch den p-Text verschieben möchtest */
+#bild5-p {
+    margin-top: -30px;  /* Verschiebung nach oben */
+}
