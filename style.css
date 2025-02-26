@@ -916,3 +916,45 @@ body {
     text-shadow: 0 0 5px #e7fc6e, 0 0 10px #e7fc6e, 0 0 15px #e7fc6e, 0 0 20px #e7fc6e;
   }
 }
+
+
+/* Responsive Design für mobile Geräte */
+@media (max-width: 768px) {
+  /* Header anpassen */
+  header h1 {
+      font-size: 28px; /* Kleinere Schrift für den Header auf Handys */
+  }
+
+  /* Navigation anpassen */
+  .nav-menu {
+      text-align: center; /* Navigation zentrieren */
+  }
+
+  .nav-menu .menu li {
+      display: block; /* Menüeinträge untereinander anordnen */
+      margin-bottom: 10px;
+  }
+
+  /* Die Boxen für Skills, Interests, Education untereinander anordnen */
+  .boxes-container {
+      display: block;
+      width: 100%;
+  }
+
+  .box {
+      width: 100%;
+      margin: 10px 0; /* Mehr Abstand zwischen den Boxen */
+  }
+
+  /* Bilder im Masonry-Layout untereinander anordnen */
+  .masonry .item {
+      width: 100%;
+      margin-bottom: 15px; /* Mehr Abstand zwischen den Bildern */
+  }
+
+  /* Footer: Zentrieren auf kleinen Geräten */
+  footer {
+      text-align: center;
+      padding: 20px;
+  }
+}

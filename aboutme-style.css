@@ -326,3 +326,86 @@ body {
 #typewriter-title span.blank-space {
   visibility: hidden;
 }
+
+/* Basis CSS für mobile Endgeräte */
+@media (max-width: 768px) {
+  /* Stellt sicher, dass der Body den gesamten Viewport einnimmt */
+  html, body {
+    height: 100%;  /* 100% der Höhe des Viewports */
+    margin: 0;
+  }
+
+  /* Der Hauptinhalt erhält mindestens die Höhe des Viewports */
+  .content-wrapper {
+    min-height: 100%; /* Der Wrapper benötigt mindestens 100% Höhe */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Container für das About Me */
+  .about-me-container {
+    padding: 10px; /* Weniger Abstand für kleinere Bildschirme */
+  }
+
+  /* Bildgröße für mobile Geräte */
+  .about-me-image {
+    width: 100%;
+    max-width: 250px; /* Bild bleibt auf mobilen Geräten innerhalb einer max. Breite */
+    height: auto;
+    margin: 0 auto; /* Zentriert das Bild */
+  }
+
+  /* Text-Stile für den Titel */
+  .about-me-text h1 {
+    font-size: 2rem; /* Kleinere Schrift für kleinere Bildschirme */
+    text-align: center; /* Titel wird zentriert */
+  }
+
+  /* Text-Stile für den Absatz */
+  p {
+    font-size: 16px; /* Kleinere Schriftgröße für den Text */
+    line-height: 1.6;
+    text-align: justify; /* Text wird auf mobilen Geräten sinnvoll umbrochen */
+    margin: 10px auto;
+    max-width: 90%; /* Text nimmt maximal 90% der Breite auf mobilen Geräten ein */
+  }
+
+  /* Footer wird immer unten fixiert */
+  footer {
+    position: relative;
+    margin-top: auto; /* Erzwingt, dass der Footer immer am Ende bleibt */
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px; /* Kleinere Schrift im Footer */
+    text-align: center;
+  }
+}
+
+/* Für noch kleinere Geräte (z.B. Smartphones im Hochformat) */
+@media (max-width: 480px) {
+  /* Bild und Text werden weiter angepasst */
+  .about-me-image {
+    width: 100%;
+    max-width: 100%; /* Bild nimmt die volle Breite auf sehr kleinen Geräten ein */
+    margin: 0 auto;
+  }
+
+  .about-me-text h1 {
+    font-size: 1.8rem; /* Noch kleinere Schriftgröße für sehr kleine Bildschirme */
+  }
+
+  p {
+    font-size: 14px; /* Weitere Anpassung der Schriftgröße */
+    line-height: 1.4;
+    text-align: left; /* Text wird links ausgerichtet für kleinere Bildschirme */
+    margin-left: 0;
+  }
+
+  footer {
+    position: relative;
+    margin-top: auto; /* Erzwingt, dass der Footer immer am Ende bleibt */
+    width: 100%;
+    padding: 5px 0;
+    font-size: 12px; /* Kleine Schriftgröße für den Footer */
+  }
+}
