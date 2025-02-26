@@ -3,7 +3,7 @@
 body{
     background-color: black; 
     font-family: 'Quicksand', sans-serif;
-    color: white; 
+    color: white;  
 }
 
 
@@ -763,3 +763,6 @@ h3 {
 }
 
 
+body {
+  cursor: url('/assets/cursor/neongelber_cursor_fixed.png') 20 20, auto;
+}
