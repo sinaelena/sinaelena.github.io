@@ -486,3 +486,396 @@ button,
 #bild5-p {
     margin-top: -30px;  /* Verschiebung nach oben */
 }
+
+/* Responsive Styles für kleinere Geräte (Smartphones) */
+@media (max-width: 768px) {
+
+    /* Die Masonry für kleinere Geräte (z.B. Tablets und Smartphones) auf 2 Spalten anpassen */
+    .masonry {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .additional-images .masonry {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Textgrößen für kleinere Geräte anpassen */
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    /* Padding für den Container reduzieren */
+    .container {
+        padding: 15px;
+    }
+
+    /* Navigation (Get Back) */
+    .nav a {
+        font-size: 1rem;
+    }
+}
+
+/* Responsive Styles für noch kleinere Geräte (z.B. Handys im Hochformat) */
+@media (max-width: 480px) {
+
+    /* Masonry Layout auf 1 Spalte ändern */
+    .masonry {
+        grid-template-columns: 1fr;
+    }
+
+    .additional-images .masonry {
+        grid-template-columns: 1fr;
+    }
+
+    /* Schriftgrößen weiter reduzieren */
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.85rem;
+    }
+
+    /* Container Padding anpassen */
+    .container {
+        padding: 10px;
+    }
+
+    /* Navigation (Get Back) */
+    .nav a {
+        font-size: 0.9rem;
+    }
+}
+/* Responsive Styles für Tablets und kleinere Geräte */
+@media (max-width: 768px) {
+
+    /* Masonry Layout für Bilder */
+    .masonry {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px; /* Mehr Abstand zwischen Bildern */
+    }
+
+    /* Masonry für untere Bilder */
+    .additional-images .masonry {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    /* Container-Padding optimieren */
+    .container {
+        padding: 20px;
+    }
+
+    /* h2 direkt über p-Text setzen */
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 50px; /* Abstand nach oben */
+        margin-bottom: 10px; /* Weniger Abstand zum p-Text */
+        text-align: left;
+    }
+
+    /* p-Text weiter nach oben */
+    p {
+        font-size: 1rem;
+        margin-top: -20px; /* Text näher an h2 */
+        margin-bottom: 40px; /* Abstand nach unten */
+    }
+
+    /* Letzte Bilder nach unten schieben */
+    .additional-images {
+        margin-top: 100px; /* Extra Abstand nach unten */
+    }
+}
+
+/* Responsive Styles für Smartphones (sehr kleine Bildschirme) */
+@media (max-width: 480px) {
+    
+    /* Masonry auf eine Spalte umstellen */
+    .masonry {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    /* Masonry für untere Bilder */
+    .additional-images .masonry {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    /* h2 direkt über p-Text setzen */
+    h2 {
+        font-size: 1.4rem;
+        margin-top: 50px;
+        margin-bottom: 10px; /* Kleiner Abstand zum p-Text */
+        text-align: left;
+    }
+
+    /* p-Text noch weiter nach oben */
+    p {
+        font-size: 0.95rem;
+        margin-top: -30px; /* Noch näher an h2 */
+        margin-bottom: 50px; /* Etwas mehr Abstand nach unten */
+    }
+
+    /* Letzte Bilder noch weiter nach unten verschieben */
+    .additional-images {
+        margin-top: 120px; /* Extra Abstand, damit nichts überlappt */
+    }
+
+    /* Container Padding */
+    .container {
+        padding: 15px;
+    }
+}
+
+/* Responsive Styles für Tablets und kleinere Geräte */
+@media (max-width: 768px) {
+
+    /* Masonry Layout für Bilder */
+    .masonry {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px; /* Mehr Abstand zwischen Bildern */
+    }
+
+    /* Masonry für untere Bilder */
+    .additional-images .masonry {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    /* Container-Padding optimieren */
+    .container {
+        padding: 20px;
+    }
+
+    /* h2 in die Mitte setzen und weiter nach unten verschieben */
+    h2 {
+        font-size: 1.7rem;
+        margin-top: 300px; /* Weiter nach unten verschieben */
+        margin-bottom: 15px; /* Etwas Abstand zum p-Text */
+        text-align: center;
+    }
+
+    /* p-Text etwas nach oben */
+    p {
+        font-size: 1rem;
+        margin-top: -10px; /* Text bleibt nah an h2 */
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    /* Letzte Bilder nach unten schieben */
+    .additional-images {
+        margin-top: 70px; /* Extra Abstand nach unten */
+    }
+}
+
+/* Responsive Styles für Smartphones (sehr kleine Bildschirme) */
+@media (max-width: 480px) {
+    
+    /* Masonry auf eine Spalte umstellen */
+    .masonry {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    /* Masonry für untere Bilder */
+    .additional-images .masonry {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    /* h2 in die Mitte setzen und noch weiter nach unten */
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 600px; /* Noch weiter nach unten */
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    /* p-Text bleibt nah an h2 */
+    p {
+        font-size: 0.95rem;
+        margin-top: -10px; /* Direkt unter h2 */
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    /* Letzte Bilder noch weiter nach unten verschieben */
+    .additional-images {
+        margin-top: 0px;
+    }
+
+    /* Container Padding */
+    .container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .additional-images {
+        margin-top: 80px; /* Weniger Abstand nach oben */
+    }
+}
+
+@media (max-width: 480px) {
+    .additional-images {
+        margin-top: 60px; /* Noch näher an den Text */
+    }
+}
+@media (max-width: 768px) {
+    /* Für die bild5.html Seite - h2 mit id 'bild5-h2' */
+    #bild5-h2 {
+        margin-top: 60px;  /* Verschiebt das h2 weiter nach unten */
+        text-align: center;  /* Optional: Für bessere Ausrichtung */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Für noch kleinere Bildschirme */
+    #bild5-h2 {
+        margin-top: 50px;  /* Noch mehr Abstand nach unten */
+        text-align: center;  /* Optional: Zentriert das h2 */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Untere Bilder näher an den Text schieben */
+    #bild1 .additional-images {
+        margin-top: -70px;  /* Verringert den Abstand zwischen Text und unteren Bildern */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Noch näher für kleinere Bildschirme */
+    #bild1 .additional-images {
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #bild1 .additional-images {
+        margin-top: -50px; /* Bilder näher an den Text heranrücken */
+    }
+}
+
+@media (max-width: 480px) {
+    #bild1 .additional-images {
+        margin-top: -70px; /* Noch näher für kleinere Bildschirme */
+    }
+}
+@media (max-width: 768px) {
+    #bild2-h2 {
+        position: relative;
+        top: -40px; /* Verschiebt nur die h2 nach unten */
+        text-align: center; /* Optional: Zentrieren */
+    }
+}
+
+@media (max-width: 480px) {
+    #bild2-h2 {
+        position: relative;
+        top: 100px; /* Noch weiter nach unten für kleinere Bildschirme */
+        text-align: center; /* Optional: Zentrieren */
+    }
+}
+
+@media (max-width: 768px) {
+    #bild3-h2 {
+        position: relative;
+        top: -60px; /* Verschiebt nur die h2 nach unten */
+        text-align: center; /* Optional: Zentrieren */
+    }
+}
+
+@media (max-width: 480px) {
+    #bild3-h2 {
+        position: relative;
+        top: 100px; /* Noch weiter nach unten für kleinere Bildschirme */
+        text-align: center; /* Optional: Zentrieren */
+    }
+}
+
+@media (max-width: 768px) {
+    #bild4-h2 {
+        position: relative;
+        top: -35px; /* Verschiebt nur die h2 nach unten */
+        text-align: center; /* Optional: Zentrieren */
+    }
+}
+
+@media (max-width: 480px) {
+    #bild4-h2 {
+        position: relative;
+        top: 100px; /* Noch weiter nach unten für kleinere Bildschirme */
+        text-align: center; /* Optional: Zentrieren */
+    }
+}
+
+@media (max-width: 768px) {
+    #bild5-h2 {
+        position: relative;
+        top: -40px; /* Verschiebt nur die h2 nach unten */
+        text-align: center; /* Optional: Zentrieren */
+    }
+}
+
+@media (max-width: 480px) {
+    #bild5-h2 {
+        position: relative;
+        top: 100px; /* Noch weiter nach unten für kleinere Bildschirme */
+        text-align: center; /* Optional: Zentrieren */
+    }
+}
+
+@media (max-width: 768px) {
+    body#bild1 .additional-images {
+        margin-top: -90px; /* Verschiebt nur die Bilder in bild1.html näher an den Text */
+    }
+}
+
+@media (max-width: 480px) {
+    body#bild1 .additional-images {
+        margin-top: -70px; /* Noch näher für kleinere Bildschirme */
+    }
+}
+
+/* Spezifische Anpassung für bild1.html */
+@media (max-width: 768px) {
+    /* Nur auf der bild1.html Seite: Weniger Abstand zwischen Text und Bildern */
+    body#bild1 .additional-images {
+        margin-top: -90px;  /* Verschiebt die letzten Bilder näher zum Text */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Für noch kleinere Bildschirme (z.B. Handys im Hochformat) */
+    body#bild1 .additional-images {
+        margin-top: -9px;  /* Nimmt den Abstand weiter ab */
+    }
+}
+
+/* Spezifische Anpassung für die bild1.html Seite */
+@media (max-width: 768px) {
+    body#bild1 .additional-images {
+        margin-top: -30px; /* Weniger Abstand zwischen Text und Bildern */
+    }
+}
+
+@media (max-width: 480px) {
+    body#bild1 .additional-images {
+        margin-top: -20px; /* Noch weniger Abstand für kleinere Geräte */
+    }
+}
