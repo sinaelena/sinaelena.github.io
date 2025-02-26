@@ -89,3 +89,240 @@ footer a {
 footer a:hover {
   color: #e7fc6e;
 }
+
+/* Versteckt den Standard-Cursor */
+body {
+  cursor: none;
+}
+
+body {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="2" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="2" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Versteckt den Standard-Cursor */
+body {
+  cursor: none;
+}
+
+body {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="2" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="2" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Weißer Standard-Cursor für Navbar und Footer */
+.nav-menu a, .footer-link, .footer a {
+  cursor: pointer; /* Setzt den Standard-Pfeil für den Cursor */
+}
+
+/* Optional: Hover-Style für interaktive Elemente */
+.nav-menu a:hover, .footer-link:hover {
+  cursor: pointer; /* Bleibt ein weißer Standard-Cursor */
+}
+
+/* Weißer Standard-Cursor für Navbar und Footer */
+.nav-menu a, .footer-link, .footer a {
+  cursor: pointer; /* Setzt den Standard-Pfeil für den Cursor */
+}
+
+/* Optional: Hover-Style für interaktive Elemente */
+.nav-menu a:hover, .footer-link:hover {
+  cursor: pointer; /* Bleibt ein weißer Standard-Cursor */
+}
+
+/* Für Bilder in der Masonry und andere Bilder */
+.masonry a, .masonry img, .masonry .item {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="3" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="3" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Neongelber Cursor für Navbar Links */
+.nav-menu a, .footer-link, .footer a {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="3" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="3" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Optional: Hover-Style für interaktive Elemente */
+.nav-menu a:hover, .footer-link:hover {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="3" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="3" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Neongelber Cursor für Navigation Links (Home, About Me, Contact) */
+.top-links a, .footer-link, .footer a {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="3" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="3" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Optional: Hover-Style für interaktive Elemente */
+.top-links a:hover, .footer-link:hover {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="3" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="3" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Dünnerer neongelber Cursor für Navigation Links (Home, About Me, Contact) */
+.top-links a, 
+.nav-menu a,  /* Für die Navigation im Menü */
+.footer-link, 
+.footer a, 
+.interactive-element {  /* Interaktive Elemente überall */
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Etwas dickerer neongelber Cursor für Masonry-Bilder, Grids und interaktive Bilder */
+.masonry a, 
+.masonry img, 
+.masonry .item {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1.5" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1.5" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Weißer, minimal dünnerer Cursor für Navigation (Home, Contact, About Me) & Footer-Links (Privacy Policy, Imprint) */
+.top-links a, 
+.nav-menu a, 
+.footer-link, 
+.footer a {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23ffffff" stroke-width="0.8" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23ffffff" stroke-width="0.8" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Etwas dickerer neongelber Cursor für Masonry-Bilder, Grids und interaktive Bilder */
+.masonry a, 
+.masonry img, 
+.masonry .item {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1.5" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1.5" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Etwas dickerer neongelber Cursor für Bilder, Masonry, Grids & About Me Bild */
+.masonry a, 
+.masonry img, 
+.masonry .item, 
+.about-me-image {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1.5" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1.5" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+/* Neongelber Cursor für das About Me Bild */
+.about-me-image {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
+.about-me-image:hover {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1.5" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1.5" fill="none" /%3E%3C/svg%3E') 10 10, auto !important;
+}
+
+/* Stil für den Titel */
+#typewriter-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3em;
+  font-weight: 200;
+  text-align: center;
+  color: #e7fc6e; /* Neon-Gelb */
+  white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 80%; /* Feste Breite des Containers */
+  margin: 0 auto; /* Zentriert den Text */
+}
+
+/* Jedes Wort in span umwickeln */
+#typewriter-title span {
+  display: inline-block;
+  opacity: 0; /* Startet unsichtbar */
+  transform: translateY(-50px); /* Startet von oben */
+  animation: fall 0.7s forwards ease-out; /* Purzeln nach unten */
+  animation-delay: var(--delay); /* Verzögert jedes Wort für einen einzigartigen Effekt */
+}
+
+/* Purzelnde Animation für jedes Zeichen */
+@keyframes fall {
+  0% {
+      transform: translateY(-50px); /* Startet von oben */
+      opacity: 0;
+  }
+  50% {
+      transform: translateY(0); /* Kommt zu seiner Position */
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(0); /* Bleibt an der Position */
+      opacity: 1;
+  }
+}
+
+/* Verhindern von automatischem Textüberlauf */
+#typewriter-title {
+  width: 80%; /* Beschränkt die Breite */
+  max-width: 100%;
+}
+
+/* Animation auf den Titel anwenden */
+#typewriter-title {
+  animation: typing 5s steps(18) 1s forwards; /* Schreib-Effekt */
+}
+
+/* Schreiben von Buchstaben - Effekt */
+@keyframes typing {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 60%; /* Setzt die Breite nach der gesamten Animation */
+  }
+}
+
+/* Für den Text in Span: Lässt den Text im Zeitversatz purzeln */
+#typewriter-title span:nth-child(1) {
+  --delay: 0s;
+}
+
+#typewriter-title span:nth-child(2) {
+  --delay: 0.1s;
+}
+
+#typewriter-title span:nth-child(3) {
+  --delay: 0.2s;
+}
+
+#typewriter-title span:nth-child(4) {
+  --delay: 0.3s;
+}
+
+#typewriter-title span:nth-child(5) {
+  --delay: 0.4s;
+}
+
+/* Füge dies zu den restlichen span-Elementen hinzu */
+/* Stil für den Titel */
+#typewriter-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3em;
+  font-weight: 200;
+  text-align: center;
+  color: #e7fc6e; /* Neon-Gelb (deine Farbe) */
+  overflow: hidden; /* Verhindert, dass der Text nach außen fließt */
+  white-space: nowrap; /* Verhindert Zeilenumbruch */
+  border-right: 2px solid transparent; /* Fügt den Cursor-Effekt hinzu */
+  position: relative; /* Stellt sicher, dass der Text an seiner Position bleibt */
+  animation: typing 4s steps(20) 1s 1 normal both; /* Typing-Animation */
+}
+
+/* Typewriter Animation */
+@keyframes typing {
+  0% {
+      width: 0; /* Der Text ist zu Beginn unsichtbar */
+  }
+  100% {
+      width: 100%; /* Der gesamte Text wird sichtbar */
+  }
+}
+/* Animation auf den Titel anwenden */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%; /* Setzt die Breite nach der gesamten Animation auf 50% */
+  }
+}
+
+/* Entfernen von Leerzeichen */
+#typewriter-title span {
+  display: inline-block;
+}
+
+/* Schrift nach dem Typing Effekt */
+#typewriter-title span.blank-space {
+  visibility: hidden;
+}

@@ -256,3 +256,105 @@ p {
     transition: transform 0.3s ease-in-out;
 }
 
+/* Versteckt den Standard-Cursor */
+body {
+    cursor: none;
+  }
+  
+  body {
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="2" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="2" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+  
+  /* Versteckt den Standard-Cursor */
+body {
+    cursor: none;
+  }
+  
+  body {
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="2" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="2" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+  
+  /* Weißer Standard-Cursor für Navbar und Footer */
+  .nav-menu a, .footer-link, .footer a {
+    cursor: pointer; /* Setzt den Standard-Pfeil für den Cursor */
+  }
+  
+  /* Optional: Hover-Style für interaktive Elemente */
+  .nav-menu a:hover, .footer-link:hover {
+    cursor: pointer; /* Bleibt ein weißer Standard-Cursor */
+  }
+  
+  /* Weißer Standard-Cursor für Navbar und Footer */
+  .nav-menu a, .footer-link, .footer a {
+    cursor: pointer; /* Setzt den Standard-Pfeil für den Cursor */
+  }
+  
+  /* Optional: Hover-Style für interaktive Elemente */
+  .nav-menu a:hover, .footer-link:hover {
+    cursor: pointer; /* Bleibt ein weißer Standard-Cursor */
+  }
+  
+  /* Für Bilder in der Masonry und andere Bilder */
+  .masonry a, .masonry img, .masonry .item {
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="3" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="3" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+  
+  /* Neongelber Cursor für Navbar Links */
+  .nav-menu a, .footer-link, .footer a {
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="3" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="3" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+  
+  /* Optional: Hover-Style für interaktive Elemente */
+  .nav-menu a:hover, .footer-link:hover {
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="3" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="3" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+  
+  /* Neongelber Cursor für Navigation Links (Home, About Me, Contact) */
+  .top-links a, .footer-link, .footer a {
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="3" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="3" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+  
+  /* Optional: Hover-Style für interaktive Elemente */
+  .top-links a:hover, .footer-link:hover {
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="3" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="3" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+  
+  /* Dünnerer neongelber Cursor für Navigation Links (Home, About Me, Contact) */
+  .top-links a, 
+  .nav-menu a,  /* Für die Navigation im Menü */
+  .footer-link, 
+  .footer a, 
+  .interactive-element {  /* Interaktive Elemente überall */
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+  
+  /* Etwas dickerer neongelber Cursor für Masonry-Bilder, Grids und interaktive Bilder */
+  .masonry a, 
+  .masonry img, 
+  .masonry .item {
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1.5" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1.5" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+  
+  /* Weißer, minimal dünnerer Cursor für Navigation (Home, Contact, About Me) & Footer-Links (Privacy Policy, Imprint) */
+  .top-links a, 
+  .nav-menu a, 
+  .footer-link, 
+  .footer a {
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23ffffff" stroke-width="0.8" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23ffffff" stroke-width="0.8" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+  
+  /* Etwas dickerer neongelber Cursor für Masonry-Bilder, Grids und interaktive Bilder */
+  .masonry a, 
+  .masonry img, 
+  .masonry .item {
+    cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1.5" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1.5" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+  }
+
+  /* Neongelber Cursor für den Senden-Button, Instagram & LinkedIn */
+button, 
+.submit-button, 
+.social-icons a, 
+.social-links a {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"%3E%3Cpath d="M 10,30 C 15,20, 20,10, 25,30 C 30,20, 35,10, 40,30" stroke="%23e7fc6e" stroke-width="1" fill="none" transform="rotate(45 20 20)" /%3E%3Cpath d="M 5,25 L 5,15 L 0,20 L 5,25" stroke="%23e7fc6e" stroke-width="1" fill="none" /%3E%3C/svg%3E') 10 10, auto;
+}
+
